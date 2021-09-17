@@ -1,0 +1,84 @@
+//Rhodia ISCEON 89
+//Correlation fit by S.A. Klein:  data obtained from http://www.isceon-refrigerants.co.uk/
+ISCEON89|Approximate property data for ISCEON 89, a blend of R125/218/290 with mol. wt=113.92.  The correlations were fit S.A. Klein (9/5/04) to data from http://www.isceon-refrigerants.co.uk/
+113.92         {molecular weight}
+400            {Indicator for blend}
+-3.499631E+01  {a} Liquid density = a+b*Tz^(1/3)+c*Tz^(2/3)+d*Tz+e*Tz^(4/3)+f*sqrt(Tz)+g*(Tz)^2}
+8.239319E+02   {b}    where Tz=(1-T/Tc) and Liquid Density[=]lbm/ft3 from Bivens
+-3.168195E+03  {c}
+6.192801E+03   {d}
+-4.971377E+03  {e}
+0              {f}
+1.435715E+03   {g}
+-4.54396525E+03 -5.912487E+03  {a}  Bubble and Dew Pt Vapor pressure fit: lnP=a/T+b+cT+d(1-T/Tc)^1.5+eT^2
+2.02021561E+01  2.561802E+01   {b}     where T[=]R and P[=]psia fit from REFPROP6
+-1.83100858E-02  -2.614687E-02 {c}
+-3.23804740E+00  -1.893549E+00 {d}
+1.26143903E-05   1.682380E-05  {e}
+0  0                           {not used}
+0.094256       {Gas constant in psia-ft3/lbm-R}
+1.36757E-02    {b}  Constants for Martin-Hou EOS/English_units from Bivens
+-1.52411       {A2}
+-1.40691E-04   {B2}
+-169.87004     {C2}
+5.38532E-02    {A3}
+-3.49480E-05   {B3}
+2.73597        {C3}
+-3.95936E-04   {A4}
+0              {B4}
+0              {C4}
+0              {A5}
+2.28036E-09    {B5}
+-3.50233E-06   {C5}
+0              {A6}
+0              {B6}
+0              {C6}
+5.475          {Beta}
+0              {alpha}
+0              {C'}
+-0.01874       {a}   Cv(0 pressure) = a + b T + c T^2 + d T^3 + e/T^2
+0.00023257     {b}           where T[=]R and Cv[=]Btu/lb-R 
+0              {c}
+0              {d}
+0              {e}
+123.2382069    {href offset}
+0.38323557     {sref offset}
+529.389        {Pc [=] psia}
+617.85         {Tc [=] R} 
+0.02970        {vc [=] ft3/lbm  - estimated  SAK}
+0              {not used}
+7              {# of coefficients which follow - used for blends}
+1              {DeltaH Correlation type}
+0              {Xo}
+-4.989691E+01  {A} DeltaH_vap=A+B*X+C*X^2+D*X^3+E*X^4 Bivens
+2.539972E+02   {B}   where X =(1-T/Tc)^.333-X0, T in R and enthalpy in Btu/lb
+-1.523813E+02  {C}
+4.683179E+01   {D}
+0              {E}
+2              {Viscosity correlation type: set to 2: do not change}
+-1             {Lower limit of gas viscosity correlation in K}
+-1             {Upper limit of gas viscosity correlation in K}
+-1.300419E6    {A}    GasViscosity*1E12=A+B*T+C*T^2+D*T^3 
+5.39552e4      {B}    where T[=]K and GasViscosity[=]N-s/m2
+-1.550729e1    {C}
+0              {D}
+-999           {Lower limit of liquid viscosity correlation in K}
+-999           {Upper limit of liquid viscosity correlation in K}
+0              {A}   Liquid Viscosity*1E6=A+B*T+C*T^2+D*T^3
+0              {B}    where T[=]K and Liquid Viscosity[=]N-s/m2
+0              {C}
+0              {D}
+2              {Conductivity correlation type: set to 2: do not change}
+-1             {Lower limit of gas conductivity correlation in K}
+-1             {Upper limit of gas conductivity correlation in K}
+-8.643088e-3   {A}   GasConductivity=A+B*T+C*T^2+D*T^3
+7.652083e-5    {B}    where T[=]K and GasConductivity[=]W/m-K
+2.144608e-9    {C}
+0              {D}
+-999           {Lower limit of liquid conductivity correlation in K}
+-999           {Upper limit of liquid conductivity correlation in K}
+0              {A}   LiquidConductivity=A+B*T+C*T^2+D*T^3
+0              {B}    where T[=]K and LiquidConductivity[=]W/m-K
+0              {C}
+0              {D}
+0 {terminator}

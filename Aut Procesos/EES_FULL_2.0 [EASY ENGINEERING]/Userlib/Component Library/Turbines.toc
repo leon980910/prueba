@@ -1,0 +1,9 @@
+Turbines
+-3
+Component Library Model
+by G.F. Nellis and S.A. Klein 
+2015
+
+>Turbines
+Low reaction, single-stage radial turbine|Turbines.lib|Components.chm@1010|BMPS\Turbine1.bmp|Call Turbine1_CL(T_in, P_in, P_out, F$, N, D, A_n, eta_max, nu_scale: m_dot, T_out, W_dot, nu, eta, Ma)
+Constant isentropic or polytropic efficiency|Turbines.lib|Components.chm@1020|BMPS\Turbine2.bmp|Call Turbine2_CL(h_in, P_in, P_out, m_dot, F$, eta: h_out, W_dot, eta_s)

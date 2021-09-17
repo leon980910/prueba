@@ -1,0 +1,30 @@
+Boiling and Condensation
+-1
+Heat Transfer
+by G.F. Nellis and S.A. Klein 
+Cambridge University Press, 2009
+http://www.cambridge.org/nellisandklein
+
+>Boiling
+Nucleate Boiling|Boiling.lib|Boiling.chm@2010|BMPS\nucleate_boilings.bmp|q``_s=Nucleate_Boiling(Fluid$, T_sat, T_w, C_s_f)
+Film Boiling|Boiling.lib|Boiling.chm@2510|BMPS\film_boiling.bmp|q``_s=Film_Boiling(Fluid$,Geom$, T_sat, T_s, D, epsilon)
+Flow Boiling|Boiling.lib|Boiling.chm@3010|BMPS\flow_boiling.bmp|call Flow_Boiling(Fluid$, T_sat, G, d, x, q``, 'Horizontal': h, T_w)
+Flow Boiling - Average|Boiling.lib|Boiling.chm@3020|BMPS\flow_boiling_avg.bmp|h_bar=Flow_Boiling_avg(Fluid$, T_sat, G, d, x_in, x_out, q``, 'Horizontal')
+Critical Heat Flux|Boiling.lib|Boiling.chm@1010|BMPS\critical_heat_flux.bmp|q``_max=Critical_Heat_Flux(Fluid$,Geom$, L, T_sat)
+
+>Condensation
+Inside a Horizontal Tube - Local|Condensation.lib|Condensation.chm@2010|BMPS\horizontal_tubes.bmp|Call Cond_HorizontalTube(Fluid$, m_dot,  x, T_sat, T_w, D : h_m, F$)
+Inside a Horizontal Tube - Average|Condensation.lib|Condensation.chm@2070|BMPS\horizontal_tube_avgs.bmp|Call Cond_HorizontalTube_avg(Fluid$, m_dot, T_sat, T_w, D, x_1, x_2 : h_m)
+Vertical Plate|Condensation.lib|Condensation.chm@2020|BMPS\vertical_plates.bmp|Call Cond_vertical_plate(Fluid$, L, W, T_w, T_sat :h_m, Re_L, q, m_dot) 
+Horizontal Cylinder|Condensation.lib|Condensation.chm@2030|BMPS\horizontal_cylinders.bmp|Call Cond_horizontal_Cylinder(Fluid$, T_sat, T_w, D:h_m, Nusselt_m)
+N Horizontal Cylinders|Condensation.lib|Condensation.chm@2031|BMPS\horizontal_N_cylinders.bmp|Call Cond_horizontal_N_Cylinders(Fluid$, T_sat, T_w, D, N:h_m, Nusselt_m)
+Horizontal Finned Tube|Condensation.lib|Condensation.chm@2040|BMPS\finned_tubes.bmp|Call Cond_finned_tube(Fluid$, d_r, d_o, t, p, T_w, T_sat, k_f:h_m)
+Flat Horizontal Plate Facing Up|Condensation.lib|Condensation.chm@2050|BMPS\horizontal_ups.bmp|Call Cond_horizontal_up(Fluid$, L, T_w, T_sat:h_m, Nusselt_m)
+Flat Horizontal Plate Facing Down|Condensation.lib|Condensation.chm@2060|BMPS\horizontal_downs.bmp|Call Cond_horizontal_down(Fluid$, T_w, T_sat: h_m, Nusselt_m)
+
+>Pressure Drop
+2-Phase Pressure Drop|Boiling.lib|Boiling.chm@4010|BMPS\DELTAP_2phase_horiz.bmp|DELTAP=DELTAP_2phase_horiz(Fluid$, G, P_i, d, L, x_in, x_out)
+
+
+
+

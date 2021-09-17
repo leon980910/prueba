@@ -1,0 +1,26 @@
+Moment of Inertia
+-2
+Moment of Inertia Information
+
+
+
+>Sections
+Rectangular Section |Moment of Inertia.LIB|Moment of Inertia.chm@101|BMPS\MOI_rectangle.bmp|Call MOI_rectangle(b,h: A, I, Z, rho, y_bar)
+Triangular section |Moment of Inertia.LIB|Moment of Inertia.chm@102|BMPS\MOI_Triangle.bmp|Call MOI_triangle(b,h: A, I, Z, rho, y_bar)
+Trapezoidal section |Moment of Inertia.LIB|Moment of Inertia.chm@103|BMPS\MOI_Trapezoid.bmp|Call MOI_trapezoid(aw, bw,h: A, I, Z, rho, y_bar)
+Circular section |Moment of Inertia.LIB|Moment of Inertia.chm@104|BMPS\MOI_Circle.bmp|Call MOI_circle(d: A, I, Z, J, rho)
+Hollow circular section |Moment of Inertia.LIB|Moment of Inertia.chm@105|BMPS\MOI_hollowcircle.bmp|Call MOI_hollowcircle(d, d_i: A, I, Z, J, rho)
+>Solids
+Cylinder|Moment of Inertia.LIB|Moment of Inertia.chm@201|BMPS\MOI_cylinder.bmp|Call MOI_cylinder(d,L,rho:m, I_x, I_y, I_z)
+Disk|Moment of Inertia.LIB|Moment of Inertia.chm@202|BMPS\MOI_disk.bmp|Call MOI_disk(d,t,rho:m, I_x, I_y, I_z) 
+Rectangular prism|Moment of Inertia.LIB|Moment of Inertia.chm@203|BMPS\MOI_prism.bmp|Call MOI_prism(a,b,c,rho:m, I_x, I_y, I_z)
+Hollow cylinder|Moment of Inertia.LIB|Moment of Inertia.chm@204|BMPS\MOI_hollowcylinder.bmp|Call MOI_hollowcylinder(d_i, d_o, L,rho:m, I_x, I_y, I_z)
+
+
+ 
+
+
+
+
+
+

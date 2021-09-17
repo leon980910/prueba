@@ -1,0 +1,15 @@
+//LOCKED
+//WINDOWSIZE 3 530 545 197
+F$='C:\EES32\Userlib\Examples\EXCEL_WS1.xlsx'
+EXCEL.OPEN(F$)
+//EXCEL.SHOW
+EXCEL.COPY('A2:B11')
+Paste Parametric 'Table 1'  R1 C1
+SolveTable 'Table 1'
+Copy ParametricTable 'Table 1' R1 C1 R10 C5
+EXCEL.Sheet('Sheet2')
+EXCEL.Range('A2:A2')
+EXCEL.Paste
+EXCEL.FileSaveAs(F$)
+EXCEL.Quit
+

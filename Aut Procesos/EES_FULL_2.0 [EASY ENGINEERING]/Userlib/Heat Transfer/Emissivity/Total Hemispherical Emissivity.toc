@@ -1,0 +1,11 @@
+Emissivity_TotHemi
+1
+Heat Transfer
+by G.F. Nellis and S.A. Klein 
+Cambridge University Press, 2009
+http://www.cambridge.org/nellisandklein
+Emissivity_TotHemi.chm
+1
+2
+3
+

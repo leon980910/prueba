@@ -1,0 +1,86 @@
+Convection
+-1
+Heat Transfer
+by G.F. Nellis and S.A. Klein 
+Cambridge University Press, 2009
+http://www.cambridge.org/nellisandklein
+>Internal Flow - Dimensional
+Flow through a pipe|Internal_Flow.lib|internal_flow.chm@1010|BMPS\Internal_FLow_Pipe.bmp|call PipeFlow('air',T,P,m_dot,D,L,RelRough:h_T, h_H ,DELTAP, Nusselt_T, f, Re)
+Flow through a duct|Internal_Flow.lib|internal_flow.chm@1110|BMPS\Internal_FLow_duct.bmp|call DuctFlow('air',T,P,m_dot,H,W,L,RelRough:h_T, h_H ,DELTAP, Nusselt_T, f, Re)
+Flow through an annulus|Internal_Flow.lib|internal_flow.chm@1210|BMPS\Internal_FLow_annulus.bmp|call AnnularFlow('air',T,P,m_dot,r_i,r_o,L,RelRough:h_T, h_H ,DELTAP, Nusselt_T, f, Re)
+Flow through a helical pipe|Internal_Flow.lib|internal_flow.chm@1310|BMPS\Helical.bmp|HelicalPipeFlow(Fluid$, T, P, m_dot, D, L,RelRough,R_c: h_T, h_H, DELTAP, Nusselt_T, f, Re)
+Pipe dimensions|Internal_Flow.lib|internal_flow.chm@80020|BMPS\pipedimensions.bmp|call PipeDimensions(Size, Schedule$: OD, ID, WallThickness, FlowArea)
+
+>Internal Flow - Non-dimensional
+Flow through a pipe -|Internal_Flow.lib|internal_flow.chm@1020|BMPS\Internal_FLow_Pipe_N.bmp|call PipeFlow_N(Re,Pr,LoverD,RelRough: Nusselt_T,Nusselt_H,f)
+Flow through a duct|Internal_Flow.lib|internal_flow.chm@1120|BMPS\Internal_FLow_Duct_N.bmp|call DuctFlow_N(Re,Pr,LoverD_h, Aspect,RelRough: Nusselt_T, Nusselt_H, f)
+Flow through a annulus|Internal_Flow.lib|internal_flow.chm@1220|BMPS\Internal_FLow_Annulus_N.bmp|call AnnularFlow_N(Re, Pr, LoverD, r|star, relRough: Nusselt_T,Nusselt_H, f)
+Flow through a helical pipe|Internal_Flow.lib|internal_flow.chm@1320|BMPS\Helical.bmp|call HelicalPipeFlow_N(Re, Pr, L\D, RelRough,D\R_c: Nusselt_T, Nusselt_H, f)
+
+>Internal Flow - Dim (local)
+Flow through a pipe|Internal_Flow.lib|internal_flow.chm@1015|BMPS\Internal_FLow_Pipe_local.bmp|call PipeFlow_local('air',T,P,m_dot,D,x,RelRough:h_T_x, h_H_x, dPdx)
+Flow through a duct|Internal_Flow.lib|internal_flow.chm@1115|BMPS\Internal_FLow_duct_local.bmp|call DuctFlow_local('air',T,P,m_dot,H,W,x,RelRough:h_T_x, h_H_x ,dPdx)
+Flow through an annulus|Internal_Flow.lib|internal_flow.chm@1215|BMPS\Internal_FLow_annulus_local.bmp|call AnnularFlow_local('air', T, P, m_dot, r_i, r_o, x, RelRough: h_T_x, h_H_x, dPdx)
+Flow through a helical pipe|Internal_Flow.lib|internal_flow.chm@1315|BMPS\Helical.bmp|call  HelicalPipeFlow_local(Fluid$, T, P, m_dot, D, x,RelRough,R_c: h_T, h_H, dPdx)
+
+>Internal Flow - Non-dim (local)
+Flow through a pipe -|Internal_Flow.lib|internal_flow.chm@1025|BMPS\Internal_FLow_Pipe_N_local.bmp|call PipeFlow_N_local(Re,Pr,xoverD,RelRough: Nusselt_T_x,Nusselt_H_x,f_x)
+Flow through a duct|Internal_Flow.lib|internal_flow.chm@1125|BMPS\Internal_FLow_Duct_N_local.bmp|call DuctFlow_N_local(Re,Pr,LoverD_h, Aspect,RelRough: Nusselt_T_x, Nusselt_H_x, f_x)
+Flow through a annulus|Internal_Flow.lib|internal_flow.chm@1225|BMPS\Internal_FLow_Annulus_N_local.bmp|call AnnularFlow_N_local(Re, Pr, xoverD_h, r|star, relRough: Nusselt_T_x,Nusselt_H_x, f_x)
+Flow through a helical pipe|Internal_Flow.lib|internal_flow.chm@1325|BMPS\Helical.bmp|call HelicalPipeFlow_N_local(Re, Pr, x\D, RelRough,D\R_c: Nusselt_T, Nusselt_H, f)
+
+>External Flow - Dimensional
+Flow past a sphere|External_Flow.lib|external_flow.chm@2010|BMPS\external_flow_sphere.bmp|Call External_Flow_Sphere(Fluid$, T_inf, T_s, P, u_inf, D: F_d, h, C_d, Nusselt, Re)
+Crossflow past a cylinder|External_Flow.lib|external_flow.chm@2020|BMPS\external_flow_cylinder.bmp|Call External_Flow_Cylinder(Fluid$, T_inf, T_s,  P, u_inf, D: F_d\L, h, C_d, Nusselt, Re)
+Flow past a flat plate|External_Flow.lib|external_flow.chm@2030|BMPS\external_flow_plate.bmp|Call External_Flow_Plate(Fluid$, T_inf, T_s,  P, u_inf, L: tau, h, C_f, Nusselt, Re)
+Flow across an inline bank of tubes|External_Flow.lib|external_flow.chm@2040|BMPS\external_flow_inline_bank.bmp|Call External_Flow_Inline_Bank(Fluid$, T_in, T_out, T_s,  P, u_inf, N_L, D,S_T,S_L: h, deltap, Nusselt, Re)
+Flow across a staggered bank of tubes|External_Flow.lib|external_flow.chm@2050|BMPS\external_flow_staggered_bank.bmp|Call External_Flow_Staggered_Bank(Fluid$, T_in, T_out, T_s,  P, u_inf, N_L, D,S_T,S_L: h, deltap, Nusselt, Re)
+Flow past a diamond-shaped rod|External_Flow.lib|external_flow.chm@2051|BMPS\external_flow_diamond.bmp|Call External_Flow_Diamond(Fluid$, T_inf, T_s, P, u_inf, W: F_d\L, h, C_d, Nusselt, Re)
+Flow past a square-shaped rod|External_Flow.lib|external_flow.chm@2060|BMPS\external_flow_square.bmp|Call External_Flow_Square(Fluid$, T_inf, T_s, P, u_inf, W: F_d\L, h, C_d, Nusselt, Re)
+Flow past a hexagonal-shaped rod|External_Flow.lib|external_flow.chm@2070|BMPS\external_flow_hexagon1.bmp|Call External_Flow_Hexagon1(Fluid$, T_inf, T_s, P, u_inf, W: F_d\L, h, C_d, Nusselt, Re)
+Flow past a hexagonal-shaped rod|External_Flow.lib|external_flow.chm@2080|BMPS\external_flow_hexagon2.bmp|Call External_Flow_Hexagon2(Fluid$, T_inf, T_s, P, u_inf, W: F_d\L, h, C_d, Nusselt, Re)
+Flow past a vertical plate|External_Flow.lib|external_flow.chm@2090|BMPS\external_flow_verticalplate.bmp|Call External_Flow_VerticalPlate(Fluid$, T_inf, T_s, P, u_inf, W: F_d\L, h, C_d, Nusselt, Re)
+
+>External Flow - Non-dimensional
+Flow past a sphere|External_Flow.lib|external_flow.chm@2015|BMPS\external_flow_sphere_NDs.bmp|Call External_Flow_Sphere_ND(Re,Pr: Nusselt,C_d)
+Crossflow past a cylinder|External_Flow.lib|external_flow.chm@2025|BMPS\external_flow_cylinder_NDs.bmp|Call External_Flow_Cylinder_ND(Re,Pr: Nusselt,C_d)
+Flow past a flat plate|External_Flow.lib|external_flow.chm@2035|BMPS\external_flow_plate_NDs.bmp|Call External_Flow_Plate_ND(Re,Pr: Nusselt,C_f)
+Flow past a diamond-shaped extrusion|External_Flow.lib|external_flow.chm@2055|BMPS\external_flow_diamond_ND.bmp|Call External_Flow_Diamond_ND(Re,Pr: Nusselt,C_D)
+Flow past a square-shaped extrusion|External_Flow.lib|external_flow.chm@2065|BMPS\external_flow_square_ND.bmp|Call External_Flow_Square_ND(Re,Pr: Nusselt,C_D)
+Flow past a hexagonal-shaped extrusion|External_Flow.lib|external_flow.chm@2075|BMPS\external_flow_hexagon1_ND.bmp|Call External_Flow_Hexagon1_ND(Re,Pr: Nusselt,C_D)
+Flow past a hexagonal-shaped extrusion|External_Flow.lib|external_flow.chm@2085|BMPS\external_flow_hexagon2_ND.bmp|Call External_Flow_Hexagon2_ND(Re,Pr: Nusselt,C_D)
+Flow past a vertical plate|External_Flow.lib|external_flow.chm@2095|BMPS\external_flow_verticalplate_ND.bmp|Call External_Flow_VerticalPlate_ND(Re,Pr: Nusselt,C_D)
+
+>Free Convection - Dimensional
+Rectangular Enclosure|Free_Convection.lib|free_convection.chm@3010|BMPS\enclosure.bmp|Call FC_Tilted_Rect_Enclosure(Fluid$, T_h, T_c, P, L, delta, tau : h, Nusselt, Ra)
+Vertical Flat Plate|Free_Convection.lib|free_convection.chm@3020|BMPS\FC_plate_vertical.bmp|Call FC_plate_vertical(Fluid$, T_s, T_infinity, P, L: h, Nusselt, Ra)
+Horizontal Flat Plate1|Free_Convection.lib|free_convection.chm@3031|BMPS\FC_plate_horizontal1.bmp|Call FC_plate_horizontal1(Fluid$, T_s, T_infinity, P, L: h, Nusselt, Ra)
+Horizontal Flat Plate2|Free_Convection.lib|free_convection.chm@3033|BMPS\FC_plate_horizontal2.bmp|Call FC_plate_horizontal2(Fluid$, T_s, T_infinity, P, L: h, Nusselt, Ra)
+Tilted Flat Plate|Free_Convection.lib|free_convection.chm@3016|BMPS\FC_plate_tilted.bmp|Call FC_plate_tilted(Fluid$, T_s, T_infinity, P, L, W, tilt: h, Nusselt, Ra)
+Sphere|Free_Convection.lib|free_convection.chm@3030|BMPS\FC_spheres.bmp|Call FC_sphere(Fluid$, T_s, T_infinity, P, D : h, Nusselt, Ra)
+Horizontal Cylinder|Free_Convection.lib|free_convection.chm@3040|BMPS\FC_horizontal_cylinders.bmp|Call FC_horizontal_cylinder(Fluid$, T_s, T_infinity, P, D : h, Nusselt, Ra)
+Vertical Cylinder|Free_Convection.lib|free_convection.chm@3050|BMPS\FC_vertical_cylinders.bmp|Call FC_vertical_cylinder(Fluid$, T_s, T_infinity, P, L, D : h, Nusselt, Ra)
+Vertical Open Channel|Free_Convection.lib|free_convection.chm@3060|BMPS\FC_Vertical_Channel.bmp|Call FC_Vertical_Channel(Fluid$, T_s, T_infinity, P, L, S : h, Nusselt, Ra)
+Annular Enclosure|Free_Convection.lib|free_convection.chm@3070|BMPS\FC_Annular.bmp|Call FC_Annular_Enclosure(Fluid$, T_h, T_c, P, Dout, Din : hc, Nusselt, Ra)
+
+>Free Convection - Non-dimensional
+Rectangular Enclosure|Free_Convection.lib|free_convection.chm@3015|BMPS\enclosure.bmp|Call FC_Tilted_Rect_Enclosure_ND(Ra, tau, HoverL : Nusselt)
+Vertical Flat Plate|Free_Convection.lib|free_convection.chm@3025|BMPS\FC_plate_vertical.bmp|Call FC_plate_vertical_ND(Ra, Pr: Nusselt)
+Horizontal Flat Plate1|Free_Convection.lib|free_convection.chm@3027|BMPS\FC_plate_horizontal1.bmp|Call FC_plate_horizontal1_ND(Ra, Pr: Nusselt)
+Horizontal Flat Plate2|Free_Convection.lib|free_convection.chm@3029|BMPS\FC_plate_horizontal2.bmp|Call FC_plate_horizontal2_ND(Ra, Pr: Nusselt)
+Sphere|Free_Convection.lib|free_convection.chm@3035|BMPS\FC_spheres.bmp|Call FC_sphere_ND(Ra, Pr: Nusselt) 
+Horizontal Cylinder|Free_Convection.lib|free_convection.chm@3045|BMPS\FC_horizontal_cylinders.bmp|Call FC_horizontal_cylinder_ND(Ra, Pr: Nusselt)
+Vertical Cylinder|Free_Convection.lib|free_convection.chm@3055|BMPS\FC_vertical_cylinders.bmp|Call FC_vertical_cylinder_ND(Ra,Pr, LoverD:Nusselt)
+Vertical Open Channel|Free_Convection.lib|free_convection.chm@3065|BMPS\FC_Vertical_Channel.bmp|Call FC_Vertical_Channel_ND(Ra,LoverS:Nusselt)
+Annular Enclosure|Free_Convection.lib|free_convection.chm@3075|BMPS\FC_Annular.bmp|Call FC_Annular_Enclosure_ND(Ra,Dratio:Nusselt)
+
+>Regenerator Packing - Dimensional
+Random-packed sphere|Regenerator_Packings.lib|regenerator_packings.chm@4010|BMPS\sphere_matrixs.bmp|call PackedSpheres(Fluid$,m_dot, d,  A_fr, L, T, P: f, h, NTU, DP)
+Woven Screens|Regenerator_Packings.lib|regenerator_packings.chm@4000|BMPS\woven_screens.bmp|call Screens(Fluid$, m_dot, d, m,  A_fr, L,  T, P: f, h, NTU, DP)
+Triangular_channels|Regenerator_Packings.lib|regenerator_packings.chm@4020|BMPS\Triangular_channels.bmp|call Triangular_channels(Fluid$, m_dot, alpha, porosity, D_h, L,  A_fr, T, P: f, h, NTU, DP)
+
+>Regenerator Packing - Non-dimensional
+Random-packed spheres|Regenerator_Packings.lib|regenerator_packings.chm@4015|BMPS\sphere_matrixs_ND.bmp|call PackedSpheres_ND(Re:f,j_H)
+Woven Screens|Regenerator_Packings.lib|regenerator_packings.chm@4005|BMPS\woven_screens_ND.bmp|call Screens_ND(Re,porosity: f,j_H)
+Triangular_channels|Regenerator_Packings.lib|regenerator_packings.chm@4025|BMPS\Triangular_channels.bmp|call Triangular_channels_ND(Re:f,j_H)
+

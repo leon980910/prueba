@@ -1,0 +1,43 @@
+constantes de controles
+sintonizacion 
+kp=30.063
+ki=3.0
+Kd=0.5
+lgr
+kp=13.67
+ki=203.67
+Kd=0.0
+smith//smith anticipativo revisar y comparar programas cambiar el smith solo
+kp=154.79
+ki=1.083
+kd=0
+FUZZY
+ki	Real	15.0
+Z	Real	0.0
+P	Real	9730.0
+N	Real	-9730.0
+EN1	Real	-688.0
+EN2	Real	-432.0
+EN3	Real	-294.8
+EN4	Real	-41.3
+DEN1	Real	-783.0
+DEN2	Real	-607.0
+DEN3	Real	-364.1
+DEN4	Real	-63.3
+EZ1	Real	-103.0
+EZ2	Real	-10.0
+EZ3	Real	10.0
+EZ4	Real	104.8
+DEZ1	Real	-93.6
+DEZ2	Real	-10.4
+DEZ3	Real	10.45
+DEZ4	Real	94.05
+EP1	Real	43.4
+EP2	Real	296.5
+EP3	Real	432.0
+EP4	Real	688.0
+DEP1	Real	11.22
+DEP2	Real	347.0
+DEP3	Real	544.0
+var	Real	9000.0
+DEP4	Real	812.0

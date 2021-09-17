@@ -1,0 +1,19 @@
+Heat and Mass Exchangers
+-3
+Component Library
+by G.F. Nellis and S.A. Klein 
+2014
+
+>Cooling Coils
+Cooling coil using chilled water as the coolant|Heat&MassExchangers.lib|Components.chm@5020|BMPS\CoolingCoil1.bmp|call CoolingCoil1_CL(m_dot_a, T_a_in, rh_in, P, m_dot_w, T_w_in, U_a, A_a, U_w, A_w : Q_dot, T_a_out, T_w_out, m_dot_cond)
+Cooling coil using brine as the coolant|Heat&MassExchangers.lib|Components.chm@5030|BMPS\CoolingCoil2.bmp|call CoolingCoil2_CL(m_dot_a, T_a_in, rh_in, P, F$, conc, m_dot_b, T_b_in, U_a, A_a, U_b, A_b : Q_dot, T_a_out, T_b_out, m_dot_cond)
+
+>Cooling Tower
+Cooling tower using analogy method|Heat&MassExchangers.lib|Components.chm@5510|BMPS\CoolingTower1.bmp|Call CoolingTower1_CL(P_atm, V_dot_a, T_a_in, RH_a_in, m_dot_w_in, T_w_in, UA: T_w_out, m_dot_mu, Capacity, Range, Approach)
+
+>Enthalpy Exchangers
+Enthalpy exchanger with Preheat Control|Heat&MassExchangers.lib|Components.chm@5010|BMPS\EnthalpyExchanger1.bmp|CALL EnthalpyExchanger1_CL(P,A_fr,L,Porosity,D_h,Area\Vol,eta_fan, T_oa, RH_oa, V_dot_oa,T_ea, RH_ea,V_dot_ea:T_ph,T_exit,RH_exit, Capacity, Power,Q_dot_ph,epsilon,R_c)
+
+>Evaporative Condensers
+Evaporative condenser design (determine A_R)|Heat&MassExchangers.lib|Components.chm@5810|BMPS\EvapCondenser1.bmp|Call EvaporativeCondenser1_CL(R$, m_dot_R, h_R_in, DELTAT_sc, P_R, V_dot_a, T_a_in, rh_in, P_atm, h_a, A_air\A_R, h_R_sh, h_R_sat, h_R_sc : A_R, Q_dot, h_R_out, T_a_out, w_out, f_sh, f_sc)
+Evaporative condenser (determine outlet states)|Heat&MassExchangers.lib|Components.chm@5820|BMPS\EvapCondenser1.bmp|call EvaporativeCondenser2_CL(R$, m_dot_R, h_R_in, P_R, V_dot_a, T_a_in, rh_in, P_atm, h_a, A_air\A_R, h_R_sh, h_R_sat, h_R_sc, A_R : Q_dot, h_R_out, T_a_out, w_out, f_sh, f_sc)

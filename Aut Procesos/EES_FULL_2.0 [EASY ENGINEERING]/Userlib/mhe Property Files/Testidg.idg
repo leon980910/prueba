@@ -1,0 +1,39 @@
+TestCO2
+44.01       {Molecular mass of fluid
+100.0       {Tn Normalizing value in K}
+250         {Lower temperature limit of Cp correlation in K}
+1500        {Upper temperature limit of Cp correlation in K}
+-3.7357 0   {a0, b0  Cp=sum(a[i]*(T/Tn)^b[i], i=0,9 in kJ/kgmole-K}
+30.529  0.5 {a1, b1}
+-4.1034 1.0 {a2, b2}
+0.02420 2.0 {a3, b3}
+0 0         {a4, b4}
+0 0         {a5, b5}
+0 0         {a6, b6}
+0 0         {a7, b7}
+0 0         {a8, b8}
+0 0         {a9, b9}
+298.15      {TRef in K}
+100         {Pref in kPa}
+-393520     {hform - enthalpy of formation in kJ/kgmole at TRef}
+213.685     {s0 - Third law entropy in kJ/kgmole-K at Tref and PRef}
+0           {reserved - set to 0}
+0           {reserved - set to 0}
+200         {Lower temperature limit of gas phase viscosity correlation in K}
+1000        {Upper temperature limit of gas phase viscosity correlation in K}
+-8.09519E-7 {v0  Viscosity = sum(v[i]*T^(i)) for i=0 to 5 in N-s/m^2}
+6.039533E-8 {v1}
+-2.8249E-11 {v2}
+9.84378E-15 {v3}
+-1.4732E-18 {v4}
+0           {v5}
+200         {Lower temperature limit of gas phase thermal conductivity correlation in K}
+1000        {Upper temperature limit of gas phase thermal conductivity correlation in K}
+-1.1582E-3  {t0  Thermal Conductivity = sum(t[i]*T^(i)) for i=0 to 5 in W/m-K}
+3.9174E-5   {t1}
+8.2396E-8   {t2}
+-5.3105E-11 {t3}
+3.1368E-16  {t4}
+0           {t5}
+0           {Terminator - set to 0}
+

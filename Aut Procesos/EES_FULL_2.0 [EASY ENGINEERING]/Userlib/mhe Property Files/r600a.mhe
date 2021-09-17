@@ -1,0 +1,75 @@
+R600a_mh|Fluid isobutane provides high accuracy property data for R600a.  Use isobutane rather than R600a.
+58.13           {molecular weight of Isobutane}
+0               {not used}
+16.82021        {a} Liquid density=a+b*Tz^(1/3)+c*Tz^(2/3)+d*Tz+e*Tz^(4/3) 
+-3.33390        {b}                                           +f*sqrt(Tz)+g*(Tz)^2}
+99.34208        {c}     where Tz=(1-T/Tc) and Liquid Density[=]lbm/ft3
+-118.74205      {d}
+59.04652        {e}
+0               {f}
+0               {g}
+-6421.98971     {a}  Vapor pressure fit: lnP=a/T+b+cT+d(1-T/Tc)^1.5+eT^2
+15.30255        {b}     where T[=]¡R and P[=]psia
+-0.0003452      {c}
+5.56792         {d}
+0               {e}
+0               {not used}
+.184678         {Gas constant in psia-ft3/lbm-R}
+4.9512e-3       {b}  Constants for Martin-Hou EOS/English_units
+-19.122         {A2}
+8.6323e-3       {B2}
+-278.091        {C2}
+0.92000         {A3}
+-3.6962e-4      {B3}
+16.881          {C3}
+-1.8611e-2      {A4}
+0               {B4}
+0               {C4}
+0               {A5}
+2.8861e-7       {B5}
+-4.3322e-3      {C5}
+0               {A6}
+0               {B6}
+0               {C6}
+5.475           {Bexp - Martin-Hou exponential constant}
+0               {alpha}
+0               {C'}
+-1.036e-1       {a}   Cv(0 pressure) = a + b T + c T^2 + d T^3 + e/T^2
+8.4338e-4       {b}           where T[=]R and Cv[=]Btu/lb-R
+3.3838e-8       {c}
+-1.5939e-10     {d}
+8.6830e+3       {e}
+245.696         {href offset}
+1.100386        {sref offset}
+529.1           {Pc [=] psia}
+734.60          {Tc [=] R} 
+0.071           {vc [=] ft3/lbm}
+0               {not used}
+0               {not used}
+2               {Viscosity correlation type: set to 2: do not change}
+220             {Lower limit of gas viscosity correlation in K}
+533.15          {Upper limit of gas viscosity correlation in K}
+-6.92838204e4       {A}    GasViscosity*1E12=A+B*T+C*T^2+D*T^3 
+2.69967801e4        {B}    where T[=]K and GasViscosity[=]N-s/m2
+-5.17091446         {C}
+1.40814391e-3       {D}
+210                 {Lower limit of liquid viscosity correlation in K}
+408                 {Upper limit of liquid viscosity correlation in K}
+5.22601251e3        {A}   Liquid Viscosity*1E6=A+B*T+C*T^2+D*T^3
+-4.35351547e1       {B}    where T[=]K and Liquid Viscosity[=]N-s/m2
+1.25764430e-1       {C}
+-1.23292425e-4      {D}
+2                   {Conductivity correlation type: set to 2: do not change}
+220                 {Lower limit of gas conductivity correlation in K} 
+540                 {Upper limit of gas conductivity correlation in K}
+3.62902336e-3       {A}   GasConductivity=A+B*T+C*T^2+D*T^3
+-3.56892580e-5      {B}    where T[=]K and GasConductivity[=]W/m-K
+3.36041256e-7       {C}
+-2.50300644e-10     {D} 
+210                 {Lower limit of liquid conductivity correlation in K}
+410                 {Upper limit of liquid conductivity correlation in K}
+4.03602168e-1       {A}   LiquidConductivity=A+B*T+C*T^2+D*T^3
+-2.40870093e-3      {B}    where T[=]K and LiquidConductivity[=]W/m-K
+7.24412461e-6       {C}
+-8.38473070e-9      {D}
+0                   {not used: terminator}

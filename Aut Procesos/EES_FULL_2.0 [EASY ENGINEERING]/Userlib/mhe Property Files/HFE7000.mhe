@@ -1,0 +1,77 @@
+//3M-HFE-7000 1-methoxyheptafluoropropane.
+//Correlation fit by S.A. Klein on 8/15/04 based on data provided by 3M
+HFE7000|Property data for HFE7000 (1-methoxyheptafluoropropane, MW=200) are provided for 230<T[K]<438 at pressures<20 bar.  The correlations were fit to data provided by 3M Corporation. Transport properties for the vapor are not available.
+200.0                {molecular weight}
+0                       {not used}
+3.012864E+01      {a} Liquid density=a+b*Tz^(1/3)+c*Tz^(2/3)+d*Tz+e*Tz^(4/3) 
+1.141271E+02      {b}                                           +f*sqrt(Tz)+g*(Tz)^2}
+-2.022943E+02     {c}     where Tz=(1-T/Tc) and Liquid Density[=]lbm/ft3
+4.175785E+02      {d}
+-3.127115E+02     {e}
+0                            {f}
+9.406709E+01      {g}
+-7.695856E+03     {a}  Vapor pressure fit: lnP=a/T+b+cT+d(1-T/Tc)^1.5+eT^2
+2.132922E+01      {b}     where T[=] R and P[=]psia
+-1.197082E-02     {c}
+0                           {d}
+6.060697E-06      {e}
+0                           {not used}
+0.05369                {Gas constant in psia-ft3/lbm-R}
+2.92883E-03        {b}  Constants for Martin-Hou EOS/English_units
+-3.11951           {A2}
+1.68458E-03        {B2}
+-44.33361          {C2}
+1.27563E-01        {A3}
+-1.10834E-04       {B3}
+1.37235            {C3}
+-5.32475E-04       {A4}
+0                  {B4}
+0                  {C4}
+0                  {A5}
+3.77983E-09        {B5}
+-1.22939E-04       {C5}
+0                  {A6}
+0                  {B6}
+0                  {C6}
+5.47500            {Bexp - Martin-Hou exponential constant}
+0                  {alpha}
+0                  {C'}
+6.020674E-02       {a}   Cv(0 pressure) = a + b T + c T^2 + d T^3 + e/T^2
+2.4656E-4          {b}           where T[=]R and Cv[=]Btu/lb-R
+0                  {c}
+0                  {d}
+0                  {e}
+18.2287            {href offset based on 300 K sat'd vapor}
+-0.343115          {sref offset}
+359.506            {Pc [=] psia}
+787.86             {Tc [=] R} 
+0.03014            {vc [=] ft3/lbm}
+450                 {Triple = [R]}
+0                  {not used}
+2                  {Viscosity correlation type: set to 2: do not change}
+-1                 {Lower limit of gas viscosity correlation in K}
+0                  {Upper limit of gas viscosity correlation in K}
+0                  {A}    GasViscosity*1E12=A+B*T+C*T^2+D*T^3 
+0                  {B}    where T[=]K and GasViscosity[=]N-s/m2
+0                  {C}
+0                  {D}
+150                {Lower limit of liquid viscosity correlation in K}
+320                {Upper limit of liquid viscosity correlation in K}
+3.859025E4         {A}   Liquid Viscosity*1E6=A+B*T+C*T^2+D*T^3
+-3.747636E02       {B}    where T[=]K and Liquid Viscosity[=]N-s/m2
+1.242357           {C} 
+-1.391011E-03      {D}
+2                  {Conductivity correlation type: set to 2: do not change}
+-1                 {Lower limit of gas conductivity correlation in K}
+0                  {Upper limit of gas conductivity correlation in K}
+3.62902336e-3      {A}   GasConductivity=A+B*T+C*T^2+D*T^3
+-3.56892580e-5     {B}    where T[=]K and GasConductivity[=]W/m-K
+3.36041256e-7      {C}
+-2.50300644e-10    {D} 
+150                {Lower limit of liquid conductivity correlation in K}
+320                {Upper limit of liquid conductivity correlation in K}
+0.1327             {A}   LiquidConductivity=A+B*T+C*T^2+D*T^3 (from 3M data}
+-0.000196          {B}    where T[=]K and LiquidConductivity[=]W/m-K
+0                  {C}
+0                  {D}
+0                  {not used: terminator}

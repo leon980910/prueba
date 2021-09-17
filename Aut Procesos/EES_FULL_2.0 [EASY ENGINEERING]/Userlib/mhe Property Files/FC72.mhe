@@ -1,0 +1,77 @@
+//3M FC-72
+//Correlation fit by Adam Pautsch and S.A. Klein from data recieved from 3M
+FC72|Approximate property data for FC72 (CAS No. 86508-42-1, MW=338) are provided for 240<T[K]<500.  The correlations were fit by Adam Pautsch and S.A. Klein (6/5/03) to data provided by 3M Corporation. Transport properties are not available.
+338             {molecular weight}
+0              {not used}
+39.5114        {a} Liquid density=a+b*Tz^(1/3)+c*Tz^(2/3)+d*Tz+e*Tz^(4/3)
+73.534         {b}                                           +f*sqrt(Tz)+g*(Tz)^2}
+-403.028       {c}     where Tz=(1-T/Tc) and Liquid Density[=]lbm/ft3
+453.081        {d}
+-251.278       {e}
+186.791        {f}
+85.086         {g}
+-15572.8       {a}  Vapor pressure fit: lnP=a/T+b+cT+d(1-T/Tc)^1.5+eT^2
+55.3576        {b}     where T[=]R and P[=]psia
+-0.0633688     {c}
+0              {d}
+0.0000317583   {e}
+0              {not used}
+0.0317484      {Gas constant in psia-ft3/lbm-R}
+3.99871e-3     {b}  Constants for Martin-Hou EOS/English_units
+-1.46017       {A2}
+7.13789E-4     {B2}
+-20.95483      {C2}
+5.26861E-02    {A3}
+-4.50116E-05   {B3}
+0.49541        {C3}
+-1.74725E-04   {A4}
+0              {B4}
+0              {C4}
+0              {A5}
+9.46337E-10    {B5}
+-2.32474E-05   {C5}
+0              {A6}
+0              {B6}
+0              {C6}
+5.47500        {Bexp - Martin-Hou exponential constant}
+0              {alpha}
+0              {C'}
+ -0.0729       {a}   Cv(0 pressure) = a + b T + c T^2 + d T^3 + e/T^2
+7.916603E-04   {b}           where T[=]R and Cv[=]Btu/lb-R
+-5.649282E-07  {c}
+0              {d}
+0              {e}
+22.29949       {href offset}
+0.24560        {sref offset}
+270.920        {Pc [=] psia}
+807.840        {Tc [=] R}
+0.025164       {vc [=] ft3/lbm}
+0              {not used}
+0              {not used}
+2              {Viscosity correlation type: set to 2: do not change}
+-1             {Lower limit of gas viscosity correlation in K}
+-1             {Upper limit of gas viscosity correlation in K}
+0              {A}    GasViscosity*1E12=A+B*T+C*T^2+D*T^3
+0              {B}    where T[=]K and GasViscosity[=]N-s/m2
+0              {C}
+0              {D}
+-1             {Lower limit of liquid viscosity correlation in K}
+-1             {Upper limit of liquid viscosity correlation in K}
+0              {A}   Liquid Viscosity*1E6=A+B*T+C*T^2+D*T^3
+0              {B}    where T[=]K and Liquid Viscosity[=]N-s/m2
+0              {C}
+0              {D}
+2              {Conductivity correlation type: set to 2: do not change}
+-1             {Lower limit of gas conductivity correlation in K}
+-1             {Upper limit of gas conductivity correlation in K}
+0              {A}   GasConductivity=A+B*T+C*T^2+D*T^3
+0              {B}    where T[=]K and GasConductivity[=]W/m-K
+0              {C}
+0              {D}
+-1             {Lower limit of liquid conductivity correlation in K}
+-1             {Upper limit of liquid conductivity correlation in K}
+0              {A}   LiquidConductivity=A+B*T+C*T^2+D*T^3
+0              {B}    where T[=]K and LiquidConductivity[=]W/m-K
+0              {C}
+0              {D}
+0              {not used: terminator}

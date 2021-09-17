@@ -1,0 +1,77 @@
+//R236fa_MH
+//Correlation fit by S.A. Klein:  data obtained from http://www.dupont.com/suva/na/usa/literature/pdf/h82731.pdf
+R236fa_MH|Approximate property data for R236fa (1,1,1,3,3,3-HEXAFLUOROPROPANE, CAS#460-73-11) with mol. wt=152.04.  The correlations were fit S.A. Klein (6/16/05) to data from  ///www.dupont.com/suva/na/usa/literature/pdf/h82731.pdf
+152.04        	{molecular weight}
+0                 {not used}
+2.328733E+01      {a} Liquid density = a+b*Tz^(1/3)+c*Tz^(2/3)+d*Tz+e*Tz^(4/3)+f*sqrt(Tz)+g*(Tz)^2}
+1.294382E+02      {b}    where Tz=(1-T/Tc) and Liquid Density[=]lbm/ft3
+-1.076164E+02    	{c}
+9.060220E+01      {d}
+0     		{e}
+0                 {f}
+0                 {g}
+-8.204726E+03    	{a}  Vapor pressure fit: lnP=a/T+b+cT+d(1-T/Tc)^1.5+eT^2
+2.761897E+01     	{b}     where T[=]øR and P[=]psia
+-2.266937E-02    	{c}
+2.086286E-01     	{d}
+1.210173E-05 	{e}
+0              	{not used}
+0.07060852       	{Gas constant in psia-ft3/lbm-R}
+4.772198E-04     	{b}  Constants for Martin-Hou EOS/English_units
+-1.940970E+00     {A2}
+1.336488E-03      {B2}
+-5.886315E+00     {C2}
+-2.643262E-02     {A3}
+4.366244E-05    	{B3}
+1.905442E-01      {C3}
+-3.655365E-04      {A4}
+0              	{B4}
+0              	{C4}
+0              	{A5}
+6.957070E-09      {B5}
+-2.061047E-05     {C5}
+0              	{A6}
+0              	{B6}
+0              	{C6}
+1.648727E+00	{Beta}
+0              	{alpha}
+0              	{C'}
+0.07099    		{a}   Cv(0 pressure) = a + b T + c T^2 + d T^3 + e/T^2
+1.991801E-04      {b}           where T[=]R and Cv[=]Btu/lb-R  
+1.714181E-08     	{c}  -7.936717E-08
+0    			{d}
+0       		{e}
+23.55302           {href offset}  
+-0.365396        	{sref offset}
+464          	{Pc [=] psia}
+716.57         	{Tc [=] R} 
+2.833664E-02      {vc [=] ft3/lbm}
+0              	{not used}
+0              	{not used}
+2              	{Viscosity correlation type: set to 2: do not change}
+-1            	{Lower limit of gas viscosity correlation in K}
+-1            	{Upper limit of gas viscosity correlation in K}
+-1.51201E+06    	{A}    GasViscosity*1E12=A+B*T+C*T^2+D*T^3 -1.183301E+04
+4.165775E04   	{B}    where T[=]K and GasViscosity[=]N-s/m2
+-9.394057  		{C}
+0 			{D}
+-1            	{Lower limit of liquid viscosity correlation in K}
+-1            	{Upper limit of liquid viscosity correlation in K}
+1.013907E+04   	{A}   Liquid Viscosity*1E6=A+B*T+C*T^2+D*T^3
+-7.388164E+01  	{B}    where T[=]K and Liquid Viscosity[=]N-s/m2
+1.860789E-01   	{C}
+-1.602110E-04 	{D}
+2              	{Conductivity correlation type: set to 2: do not change}
+-1            	{Lower limit of gas conductivity correlation in K}
+-1            	{Upper limit of gas conductivity correlation in K}
+-5.803138E-03     {A}   GasConductivity=A+B*T+C*T^2+D*T^3
+5.498727E-05     	{B}    where T[=]K and GasConductivity[=]W/m-K
+3.626765E-08     	{C}
+0    			{D}
+-1            	{Lower limit of liquid conductivity correlation in K}
+-1            	{Upper limit of liquid conductivity correlation in K}
+1.839456E-01 	{A}   LiquidConductivity=A+B*T+C*T^2+D*T^3
+-3.899407E-04 	{B}    where T[=]K and LiquidConductivity[=]W/m-K
+1.51503E-07  	{C}
+0  			{D}
+0              {not used: terminator}

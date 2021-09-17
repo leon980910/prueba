@@ -1,0 +1,36 @@
+Shape Factors
+-1
+Heat Transfer
+by G.F. Nellis and S.A. Klein 
+Cambridge University Press, 2009
+http://www.cambridge.org/nellisandklein
+>Shape Factors
+SF_1|Shape Factors.lib|Shape Factors.chm@101|BMPS\SF_1.bmp|SF=SF_1(D,w)
+SF_2|Shape Factors.lib|Shape Factors.chm@102|BMPS\SF_2.bmp|SF=SF_2(D,w,L)
+SF_3|Shape Factors.lib|Shape Factors.chm@103|BMPS\SF_3.bmp|SF=SF_3(D,L)
+SF_4|Shape Factors.lib|Shape Factors.chm@104|BMPS\SF_4.bmp|SF=SF_4(D_1,D_2,w,L)
+SF_5|Shape Factors.lib|Shape Factors.chm@105|BMPS\SF_5.bmp|SF=SF_5(sd,D,L)
+SF_6|Shape Factors.lib|Shape Factors.chm@106|BMPS\SF_6.bmp|SF=SF_6(b,a,w,L)
+SF_7|Shape Factors.lib|Shape Factors.chm@107|BMPS\SF_7.bmp|SF=SF_7(b,a,L)
+SF_8|Shape Factors.lib|Shape Factors.chm@108|BMPS\SF_8.bmp|SF=SF_8(D)
+SF_9|Shape Factors.lib|Shape Factors.chm@109|BMPS\SF_9.bmp|SF=SF_9(d_in,d_out,L,N)
+SF_10|Shape Factors.lib|Shape Factors.chm@110|BMPS\SF_10.bmp|SF=SF_10(D,w,L)
+SF_11|Shape Factors.lib|Shape Factors.chm@111|BMPS\SF_11.bmp|SF=SF_11(d_in,D_out,w,L)
+SF_12|Shape Factors.lib|Shape Factors.chm@112|BMPS\SF_12.bmp|SF=SF_12(D,w,L)
+SF_13|Shape Factors.lib|Shape Factors.chm@113|BMPS\SF_13.bmp|SF=SF_13(D,L)
+SF_14|Shape Factors.lib|Shape Factors.chm@114|BMPS\SF_14.bmp|SF=SF_14(L)
+SF_15|Shape Factors.lib|Shape Factors.chm@115|BMPS\SF_15.bmp|SF=SF_15(a,b,c,d,L)
+SF_16|Shape Factors.lib|Shape Factors.chm@116|BMPS\SF_16.bmp|SF=SF_16(a, c, d, L)
+SF_17|Shape Factors.lib|Shape Factors.chm@117|BMPS\SF_17.bmp|SF=SF_17(d, w)
+SF_18|Shape Factors.lib|Shape Factors.chm@118|BMPS\SF_18.bmp|SF=SF_18(w, b, L)
+SF_19|Shape Factors.lib|Shape Factors.chm@119|BMPS\SF_19.bmp|SF=SF_19(w, b, L)
+SF_20|Shape Factors.lib|Shape Factors.chm@120|BMPS\SF_20.bmp|SF=SF_20(D, w)
+SF_21|Shape Factors.lib|Shape Factors.chm@121|BMPS\SF_21.bmp|SF=SF_21(d, D_out, d_p, N, L)
+SF_22|Shape Factors.lib|Shape Factors.chm@122|BMPS\SF_22.bmp|SF=SF_22(D)
+SF_23|Shape Factors.lib|Shape Factors.chm@123|BMPS\SF_23.bmp|SF=SF_23(D_1, D_2,w)
+SF_24|Shape Factors.lib|Shape Factors.chm@124|BMPS\SF_24.bmp|SF=SF_24(L, A)
+SF_25|Shape Factors.lib|Shape Factors.chm@125|BMPS\SF_25.bmp|SF=SF_25(L, r_in, r_out)
+SF_26|Shape Factors.lib|Shape Factors.chm@126|BMPS\SF_26.bmp|SF=SF_26(r_in, r_out)
+SF_27|Shape Factors.lib|Shape Factors.chm@127|BMPS\SF_27.bmp|SF=SF_27(r_1, r_2)
+
+

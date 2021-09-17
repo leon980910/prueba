@@ -1,0 +1,12 @@
+Flow Control
+-3
+Component Library Model
+by G.F. Nellis and S.A. Klein 
+2015
+
+>Capillary Tubes
+Capillary Tube (adiabatic)|FlowControl.lib|Components.chm@2510|BMPS\CapTube1.bmp|Call CapTube1_CL(R$,d,L,P_in,h_in:m_dot)
+
+>Short-tube Restrictors
+Short-tube restrictor with sharp-edge inlet|FlowControl.lib|Components.chm@2610|BMPS\Restrictor1.bmp|Call Restrictor1_CL(R$,d,L,P_in,h_in:m_dot)
+Short-tube restrictor with chamfer inlet|FlowControl.lib|Components.chm@2620|BMPS\Restrictor1.bmp|Call Restrictor2_CL(R$,d,L,Depth,P_in,h_in:m_dot)

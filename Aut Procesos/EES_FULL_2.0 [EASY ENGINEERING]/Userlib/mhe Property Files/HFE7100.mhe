@@ -1,0 +1,77 @@
+//3M-HFE-7100 Methoxy-nonafluorobutane, C4F9OCH3.
+//Correlation fit by S.A. Klein on 3/01/02 based on data provided by 3M
+HFE7100|Property data for HFE7100 (Methoxy-nonafluorobutane, C4F9OCH3, MW=250) are provided for 250<T[K]<468 at pressures<10 bar.  The correlations were fit to data provided by 3M Corporation. Transport properties for the vapor are not available.
+250.0           {molecular weight of Isobutane}
+0               {not used}
+36.9611899      {a} Liquid density=a+b*Tz^(1/3)+c*Tz^(2/3)+d*Tz+e*Tz^(4/3) 
+50.2620741      {b}                                           +f*sqrt(Tz)+g*(Tz)^2}
+56.4055057      {c}     where Tz=(1-T/Tc) and Liquid Density[=]lbm/ft3
+-91.5961467     {d}
+90.3794335      {e}
+0               {f}
+0               {g}
+-1.070004E+04   {a}  Vapor pressure fit: lnP=a/T+b+cT+d(1-T/Tc)^1.5+eT^2
+3.258310E+01    {b}     where T[=] R and P[=]psia
+-2.836497E-02   {c}
+0               {d}
+1.378316E-05    {e}
+0               {not used}
+0.04294         {Gas constant in psia-ft3/lbm-R}
+4.08005e-3      {b}  Constants for Martin-Hou EOS/English_units
+-2.44174        {A2}
+1.17183E-03     {B2}
+-40.19978       {C2}
+9.43735E-02     {A3}
+-7.43165E-05    {B3}
+1.11883         {C3}
+-4.09787E-04    {A4}
+0               {B4}
+0               {C4}
+0               {A5}
+2.57525E-09     {B5}
+-7.52924E-05    {C5}
+0               {A6}
+0               {B6}
+0               {C6}
+5.47500         {Bexp - Martin-Hou exponential constant}
+0               {alpha}
+0               {C'}
+0.0698215766    {a}   Cv(0 pressure) = a + b T + c T^2 + d T^3 + e/T^2
+2.31548E-4      {b}           where T[=]R and Cv[=]Btu/lb-R
+0               {c}
+0               {d}
+0               {e}
+0.73996339      {href offset}
+-0.43208142     {sref offset}
+323.435         {Pc [=] psia}
+843.21          {Tc [=] R} 
+0.02886         {vc [=] ft3/lbm}
+0               {not used}
+0               {not used}
+2               {Viscosity correlation type: set to 2: do not change}
+-1              {Lower limit of gas viscosity correlation in K}
+0               {Upper limit of gas viscosity correlation in K}
+0               {A}    GasViscosity*1E12=A+B*T+C*T^2+D*T^3 
+0               {B}    where T[=]K and GasViscosity[=]N-s/m2
+0                   {C}
+0                   {D}
+210                 {Lower limit of liquid viscosity correlation in K}
+320                 {Upper limit of liquid viscosity correlation in K}
+0.13857614E6        {A}   Liquid Viscosity*1E6=A+B*T+C*T^2+D*T^3
+-0.00141418754E6    {B}    where T[=]K and Liquid Viscosity[=]N-s/m2
+4.82381             {C} 
+-5.47452580E-03     {D}
+2                   {Conductivity correlation type: set to 2: do not change}
+-1                  {Lower limit of gas conductivity correlation in K}
+0                   {Upper limit of gas conductivity correlation in K}
+3.62902336e-3       {A}   GasConductivity=A+B*T+C*T^2+D*T^3
+-3.56892580e-5      {B}    where T[=]K and GasConductivity[=]W/m-K
+3.36041256e-7       {C}
+-2.50300644e-10     {D} 
+173                 {Lower limit of liquid conductivity correlation in K}
+334                 {Upper limit of liquid conductivity correlation in K}
+0.12711             {A}   LiquidConductivity=A+B*T+C*T^2+D*T^3 (from 3M data}
+-0.00019548         {B}    where T[=]K and LiquidConductivity[=]W/m-K
+0                   {C}
+0                   {D}
+0                   {not used: terminator}

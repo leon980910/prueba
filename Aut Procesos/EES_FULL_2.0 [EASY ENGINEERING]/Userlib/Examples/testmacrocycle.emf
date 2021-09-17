@@ -1,0 +1,9 @@
+//LOCKED
+//WINDOWSIZE -1 344 967 144
+a1=0
+Export 'clipboard' a1 //copies the value 0 to the clipboard
+repeat
+  Solve
+  Pause 0.5
+until y>10
+Show Solution

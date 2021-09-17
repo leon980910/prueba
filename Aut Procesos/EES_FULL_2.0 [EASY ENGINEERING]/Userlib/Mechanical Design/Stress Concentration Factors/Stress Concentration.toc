@@ -1,0 +1,25 @@
+Stress Concentration Factors
+-2
+Stress Concentration Factor Information
+
+
+
+>Notches
+Plate with opposed u-shaped notches under tension |Stress Concentration Factors.LIB|Stress Concentration Factors.chm@101|BMPS\SCF_1s.bmp|SCF=SCF_1(H,t,r)
+Plate with opposed u-shaped notches under bending |Stress Concentration Factors.LIB|Stress Concentration Factors.chm@102|BMPS\SCF_2s.bmp|SCF=SCF_2(H,t,r)
+Rod with u-shaped groove under tension |Stress Concentration Factors.LIB|Stress Concentration Factors.chm@103|BMPS\SCF_3s.bmp|SCF=SCF_3(D,t,r)
+Rod with u-shaped groove under bending |Stress Concentration Factors.LIB|Stress Concentration Factors.chm@104|BMPS\SCF_4s.bmp|SCF=SCF_4(D,t,r)
+Rod with u-shaped groove under torsion |Stress Concentration Factors.LIB|Stress Concentration Factors.chm@105|BMPS\SCF_5s.bmp|SCF=SCF_5(D,t,r)
+>Shoulder Fillets
+Plate with shoulder fillets under tension|Stress Concentration Factors.LIB|Stress Concentration Factors.chm@201|BMPS\SCF_6s.bmp|SCF=SCF_6(H,t,r)
+Plate with shoulder fillets under bending|Stress Concentration Factors.LIB|Stress Concentration Factors.chm@202|BMPS\SCF_7s.bmp|SCF=SCF_7(H,t,r)
+Rod with shoulder fillets under tension|Stress Concentration Factors.LIB|Stress Concentration Factors.chm@203|BMPS\SCF_8s.bmp|SCF=SCF_8(D,t,r) 
+Rod with shoulder fillets under bending|Stress Concentration Factors.LIB|Stress Concentration Factors.chm@204|BMPS\SCF_9s.bmp|SCF=SCF_9(D,t,r)
+Rod with shoulder fillets under torsion|Stress Concentration Factors.LIB|Stress Concentration Factors.chm@205|BMPS\SCF_10s.bmp|SCF=SCF_10(D,t,r)
+>Holes
+Plate with centered hole under tension|Stress Concentration Factors.LIB|Stress Concentration Factors.chm@301|BMPS\SCF_11s.bmp|SCF=SCF_11(H,d)
+Plate with centered hole under simple bending|Stress Concentration Factors.LIB|Stress Concentration Factors.chm@302|BMPS\SCF_12s.bmp|SCF=SCF_12(H,d,t)
+Plate with centered hole under cylindrical bending|Stress Concentration Factors.LIB|Stress Concentration Factors.chm@303|BMPS\SCF_13s.bmp|SCF=SCF_13(H,d,t)
+Plate with eccentric hole under tension|Stress Concentration Factors.LIB|Stress Concentration Factors.chm@304|BMPS\SCF_14s.bmp|SCF=SCF_14(H,e,d,t)
+Plate with infinite row of holes under tension|Stress Concentration Factors.LIB|Stress Concentration Factors.chm@305|BMPS\SCF_15s.bmp|SCF=SCF_15(H,l,d)
+Circular Tube/Cylinder with transverse hole under tension|Stress Concentration Factors.LIB|Stress Concentration Factors.chm@306|BMPS\SCF_16s.bmp|SCF=SCF_16(D_out,d_in,d_h)

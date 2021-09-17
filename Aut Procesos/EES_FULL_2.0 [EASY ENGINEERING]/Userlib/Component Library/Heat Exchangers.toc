@@ -1,0 +1,23 @@
+Heat Exchangers
+-3
+Component Library Model
+by G.F. Nellis and S.A. Klein 
+2015
+
+>Single-Phase Heat Exchangers
+Heat exchange between a fluid and reservoir 1|HeatExchangers.lib|Components.chm@4010|BMPS\HeatExchanger1.bmp|Call HeatExchanger1_CL(F$, C, m_dot, h_in, P_in, T_r, DT, DPoverP: h_out, P_out, Q_dot, eff)
+Heat exchange between two single phase fluids - specified approach|HeatExchangers.lib|Components.chm@4015|BMPS\HeatExchanger2.bmp|Call HeatExchanger2_CL(F_H$, C_H, m_dot_H, h_H_in, P_H_in, F_C$, C_C, m_dot_C, h_C_in, P_C_in, DT, DPoverP_H, DPoverP_C: h_H_out, P_H_out, h_C_out, P_C_out, Q_dot, eff)
+Heat exchange between a liquid and gass using compact HX library|HeatExchangers.lib|Components.chm@4020|BMPS\HeatExchanger3.bmp|Call HeatExchanger3_CL(F_l$, C_l, m_dot_l, T_l_in, P_l_in, F_g$, m_dot_g, T_g_in, P_g_in, W, H, L, HXg$, HXm$, th_tb, RR, N_pass: T_l_out, P_l_out, T_g_out, P_g_out, Q_dot, eff, NTU, eta_f)
+
+>Condensers
+Air-cooled condenser design (determine UA)|Condensers&Evaporators.lib|Components.chm@7010|BMPS\Condenser1.bmp|Call Condenser1_CL(R$, m_dot_R, h_R_in, DELTAT_sc, P_R, V_dot_air, T_air_in, P_air, h_air, A_air\A_R, h_R_sh, h_R_sat, h_R_sc:  A_R, UA, Q_dot, h_R_out, T_air_out, f_sh, f_sc)
+Air-cooled condenser (determine outlet state)|Condensers&Evaporators.lib|Components.chm@7020|BMPS\Condenser2.bmp|Call Condenser2_CL(R$, m_dot_R, h_R_in, P_R, V_dot_air, T_air_in, P_air, h_air, A_air\A_R, h_R_sh, h_R_sat, h_R_sc, A_R : Q_dot, h_R_out, T_air_out,f_sh, f_sc)
+Air-cooled condenser design (determine L)|Condensers&Evaporators.lib|Components.chm@7030|BMPS\Condenser3.bmp|Call Condenser3_CL(R$, m_dot_R, h_R_in, DELTAT_sc, P_R, V_dot_air, T_air_in, P_air, HXg$, W, H, th_tb, N_circuits : L, A_R, UA, Q_dot, h_R_out, T_air_out, DELTAP_air, f_sh, f_sc)
+Air-cooled condenser (determine outlet state)|Condensers&Evaporators.lib|Components.chm@7040|BMPS\Condenser4.bmp|Call Condenser4_CL(R$, m_dot_R, h_R_in, P_R, V_dot_air, T_air_in, P_air, HXg$, W, H, L, th_tb, N_circuits : Q_dot, h_R_out, T_air_out, DELTAP_air)
+
+>Evaporators
+Air-cooled evaporator design (determine UA)|Condensers&Evaporators.lib|Components.chm@7110|BMPS\Evaporator1.bmp|Call Evaporator1_CL(R$, m_dot_R, h_R_in, P_R, DELTAT_sh, V_dot_air, T_air_in, P_air, h_air, A_air\A_R,  h_R_sat, h_R_sh : A_R, UA, Q_dot, h_R_out, T_air_out, f_sh)
+Air-cooled evaporator (determine outlet state)|Condensers&Evaporators.lib|Components.chm@7120|BMPS\Evaporator2.bmp|Call Evaporator2_CL(R$, m_dot_R, h_R_in, P_R, V_dot_air, T_air_in, P_air, h_air, A_air\A_R, h_R_sat, h_R_sh, A_R : Q_dot, h_R_out, T_air_out)
+Air-cooled evaporator design (determine L)|Condensers&Evaporators.lib|Components.chm@7130|BMPS\Evaporator3.bmp|Call Evaporator3_CL(R$, m_dot_R, h_R_in, P_R, DELTAT_sh, V_dot_air, T_air_in, P_air, HXg$, W, H, th_tb, N_circuits : L, A_R, UA, Q_dot, h_R_out, T_air_out, DELTAP_air, f_sh)
+Air-cooled evaporator (determine outlet state)|Condensers&Evaporators.lib|Components.chm@7140|BMPS\Evaporator4.bmp|Call Evaporator4_CL(R$, m_dot_R, h_R_in, P_R, V_dot_air, T_air_in, P_air, HXg$, W, H, L, th_tb, N_circuits: Q_dot, h_R_out, T_air_out, DELTAP_air)
+

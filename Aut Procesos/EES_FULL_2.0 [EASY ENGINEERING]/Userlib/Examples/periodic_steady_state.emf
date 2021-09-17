@@ -1,0 +1,10 @@
+//WINDOWSIZE 3 763 1128 100
+xxx=25
+Export 'clipboard' xxx  //This puts the number 25 on the clipboard.  This value is read into variable a with the $Import command.
+repeat
+   SolveTable 'Table 1' Rows=1..24
+   Pause  0.5   //pause for 1/2 second so you can see the results
+Until (abs(T-T_o)<0.001)
+
+
+SAVE C:\EES_XE4\USERLIB\Examples\periodic_steady_state.ees

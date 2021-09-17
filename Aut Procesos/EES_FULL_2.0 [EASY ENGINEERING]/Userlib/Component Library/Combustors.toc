@@ -1,0 +1,9 @@
+Combustors
+-3
+Component Library Model
+by G.F. Nellis and S.A. Klein 
+2015
+
+>Combustors
+Combustor 1|Combustors.lib|Components.chm@3010|BMPS\Combustor1.bmp|Call Combustor1_CL(T_in, P_in, m_dot_in, F$, AF, HC, eta, DPoverP: m_dot_out, T_out, P_out, Q_dot_f, Q_dot_loss)
+Combustor 2|Combustors.lib|Components.chm@3020|BMPS\Combustor2.bmp|Call Combustor2_CL(T_in, P_in, m_dot_in,F$, Excess%, eta, DPoverP: m_dot_out, T_out, P_out, Q_dot_f, Q_dot_loss, Q_dot_b)

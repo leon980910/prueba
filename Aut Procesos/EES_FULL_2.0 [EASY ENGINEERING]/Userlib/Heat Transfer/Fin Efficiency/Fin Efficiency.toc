@@ -1,0 +1,26 @@
+Fin Library
+-1
+Heat Transfer
+by G.F. Nellis and S.A. Klein 
+Cambridge University Press, 2009
+http://www.cambridge.org/nellisandklein/
+>Dimensional Efficiency
+Straight-Base Rectangular Fin|fin efficiency.lib|fin efficiency.chm@100|BMPS\Rectangular.bmp|eta=eta_fin_straight_rect(th,L,h,k)
+Straight-Base Triangular Fin|fin Efficiency.lib|fin efficiency.chm@110|BMPS\Triangular.bmp|eta=eta_fin_straight_triangular(th,L,h,k)
+Straight-Base Concave Parabolic Fin|fin efficiency.lib|fin efficiency.chm@120|BMPS\Parabolic.bmp|eta=eta_fin_straight_parabolic(th,L,h,k)
+Straight-Base Convex Parabolic Fin|fin efficiency.lib|fin efficiency.chm@130|BMPS\Parabolic2.bmp|eta=eta_fin_straight_parabolic2(th,L,h,k)
+Circular-Base Rectangular Fin|fin efficiency.lib|fin efficiency.chm@200|BMPS\pin_rectangular.bmp|eta=eta_fin_spine_rect(D,L,h,k)
+Circular-Base Triangular Fin|fin efficiency.lib|fin efficiency.chm@210|BMPS\pin_triangular.bmp|eta=eta_fin_spine_triangular(D, L, h, k)
+Circular-Base Concave Parabolic Fin|fin efficiency.lib|fin efficiency.chm@220|BMPS\Pin_Parabolic.bmp|eta=eta_fin_spine_parabolic(D, L, h, k)
+Circular-Base Convex Parabolic Fin|fin efficiency.lib|fin efficiency.chm@230|BMPS\Pin_Parabolic2.bmp|eta=eta_fin_spine_parabolic2(D, L, h, k)
+Annular Rectangular Fin|fin efficiency.lib|fin efficiency.chm@300|BMPS\Annular.bmp|eta=eta_fin_annular_rect(th, r_in, r_out, h, k)
+>Non-dimensional Efficiency
+Straight-Base Rectangular Fin|fin efficiency.lib|fin efficiency.chm@100|BMPS\rectangular_ND.bmp|eta=eta_fin_straight_rect_ND(mL)
+Straight-Base Triangular Fin|fin efficiency.lib|fin efficiency.chm@110|BMPS\triangular_ND.bmp|eta=eta_fin_straight_triangular_ND(mL)
+Straight-Base Concave Parabolic Fin|fin efficiency.lib|fin efficiency.chm@120|BMPS\parabolic_ND.bmp|eta=eta_fin_straight_parabolic_ND(mL)
+Straight-Base Convex Parabolic Fin|fin efficiency.lib|fin efficiency.chm@130|BMPS\parabolic2_ND.bmp|eta=eta_fin_straight_parabolic2_ND(mL)
+Circular-Base Rectangular Fin|fin efficiency.lib|fin efficiency.chm@200|BMPS\pin_rectangular_ND.bmp|eta=eta_fin_spine_rect_ND(mL)
+Circular-Base Triangular Fin|fin efficiency.lib|fin efficiency.chm@210|BMPS\pin_triangular_ND.bmp|eta=eta_fin_spine_triangular_ND(mL)
+Circular-Base Concave Parabolic Fin|fin efficiency.lib|fin efficiency.chm@220|BMPS\pin_Parabolic_ND.bmp|eta=eta_fin_spine_parabolic_ND(mL)
+Circular-Base Convex Parabolic Fin|fin efficiency.lib|fin efficiency.chm@230|BMPS\pin_Parabolic2_ND.bmp|eta=eta_fin_spine_parabolic2_ND(mL)
+Annular Rectangular Fin|fin efficiency.lib|fin efficiency.chm@300|BMPS\annular_ND.bmp|eta=eta_fin_annular_rect_ND(mro,ri\ro)

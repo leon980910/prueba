@@ -1,0 +1,8 @@
+Fans
+-3
+Component Library Model
+by G.F. Nellis and S.A. Klein 
+2015
+
+>Van Axial Fans
+Van Axial Fan|Fans&Blowers.lib|Components.chm@8010|BMPS\Fan1.bmp|Call Fan1_CL(F$, m_dot, T_in, P_in, N, D: P_out, W_dot, T_out, eta)

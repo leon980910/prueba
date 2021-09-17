@@ -1,0 +1,4 @@
+DeletePlot 1
+PropPlot AirH2O PSY 1 %%2 0 P=%%1
+OverlayPlot 0 Table=ARR  X=T[i]  Y=w[i]  Rows=1..1  Line=0  Symbol=8  SymbolSize=10 Color=Red
+Show PlotWindow 0

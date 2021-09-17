@@ -1,0 +1,248 @@
+Examples
+1
+EES Examples
+http://www.fchart.com
+To hide these Examples, remove the Examples folder from Userlib sudirectory.
+Reserved
+>Getting started with EES
+Settling the bill|Dinner.ees|No.hlp|No.bmp
+Solving multiple equations|BasicEqn.ees|BasicEqn.htm|No.bmp
+Converting units function |Convert.EES|Convert.htm|No.bmp
+Example 1 from the manual|Ch1ex.ees|no.hlp|no.bmp
+Properties and T-S plot|Prop3.ees|No.hlp|No.bmp
+Properties and the Parametric Table|Prop2.ees|No.hlp|No.bmp
+Steam Cycle with Diagram Window input|SteamCyc.ees|No.hlp|No.bmp
+How EES Works|Guesses.EES|No.hlp|No.bmp
+Solving first order differential equations|DFQ_1.ees|No.hlp|No.bmp
+
+>-
+>Animation
+Moving a ball - getting started with animation|Ball.ees|no.hlp|no.bmp
+Moveable Figures and Text in the Diagram Window|Moveable_Figures.ees|no.hlp|no.bmp
+Dynamic analysis of a piston and spring|Spring.ees|no.hlp|no.bmp
+Animation of a 2-stroke internal combustion engine|2-stroke engine.ees|no.hlp|no.bmp
+Animation of a 4-stroke internal combustion engine|4-stroke engine.ees|no.hlp|no.bmp
+Animation of a Diesel internal combustion engine|diesel engine.ees|no.hlp|no.bmp
+Animation of an air compressor|air compressor.ees|no.hlp|no.bmp
+Gas spring experiment|Gas Spring.ees|no.hlp|no.bmp
+Change of phase of water in a piston-cylinder device|Water change in phase.ees|no.hlp|no.bmp
+Hit the castle with a cannon ball|projectile.ees|no.hlp|no.bmp
+Bouyancy vs drag in beer bubbles|beer.ees|no.hlp|no.bmp
+
+>Arrays
+Matrix multiplication |matrix.ees|no.hlp|no.bmp 
+Invert a matrix |matrix2.ees|no.hlp|no.bmp 
+Array Range Notation |ArrayRange_Notation.ees|no.hlp|no.bmp
+Using arrays for state property information|Rankine.ees|no.hlp|no.bmp
+Vapor Compression Refrigeration Cycle |Refrig.ees|no.hlp|no.bmp
+Regenerative Rankine Cycle with 2 feedwater heaters |Regen.ees|no.hlp|no.bmp
+Transient conduction through a plane wall|Transient Conduction through a Plane Wall.EES|no.hlp|no.bmp
+Results from a 2-D finite difference calculation|2-D Conduction.EES|No.hlp|no.bmp
+
+>Complex numbers
+Finding complex roots|complexroots.ees|no.hlp|no.bmp
+Vectors as complex numbers|Steam_flow vectors.ees|no.hlp|no.bmp
+Using Subprograms in Complex Mode|Complex_withSubprograms.ees|no.hlp|no.bmp
+
+>Component Library (Professional)
+Brayton cycle using air|Component Library\Brayton Cycle.EES|no.hlp|no.bmp
+Enthalpy exchanger with freeze protection controls|Component Library\Enthalpy Exchanger.EES|no.hlp|no.bmp
+Heat pump system design|Component Library\Heat Pump Design.EES|no.hlp|no.bmp
+Heat pump system simulation|Component Library\Heat Pump Simulation.EES|no.hlp|no.bmp
+Recompression Brayton cycle using supercritical CO2|Component Library\Recompression Cycle.EES|no.hlp|no.bmp
+Refrigeration with an evaporative condenser|Component Library\Refrigerator_EvapCond.EES|no.hlp|no.bmp
+Refrigerator with a capillary tube expansion device|Component Library\Refrigerator_Captube.EES|no.hlp|no.bmp
+Simulation of a hydraulic oil cooling system|Component Library\Oil Cooler Simulation.EES|no.hlp|no.bmp
+
+>Convergence Issues, Guess Values and Limits
+How EES Works|Guesses.EES|No.hlp|No.bmp
+Setting a guess value|adiabatic_combustion.ees|no.hlp|no.bmp 
+Setting the guess value for each row in a Parametric table|nozzle.ees|no.hlp|no.bmp 
+Redundant equation causes singularity|singularity.ees|No.hlp|no.bmp
+Avoiding log of negative numbers|avoidlogproblem.ees|no.hlp|no.bmp
+Convergence issues in a chemical equilibrium problem|ChemEq_converge.ees|No.hlp|No.bmp
+Transient conduction through a plane wall|Transient Conduction through a Plane Wall.EES|no.hlp|no.bmp
+
+>Curve-fitting and regression
+Interpolate, differentiate and curve fit|copper.ees|no.hlp|no.bmp
+Using the Linear Regression command|LinearRegression.ees|no.hlp|no.bmp
+Use of the CurveFit1D procedure|CurveFit.ees|no.hlp|no.bmp
+Curve fitting with non-linear regression|NLinRg.ees|no.hlp|no.bmp
+
+>Diagram Window
+Setting up a GUI with the Diagram Window|DiagrmW.ees|no.hlp|no.bmp
+Simple GUI for a Gas Turbine System|Gas Turbine System.ees|no.hlp|no.bmp
+Display a 'live' plot in the Diagram window|Plot_in_Diagram.ees|Plot_in_Diagram.htm|no.bmp
+Changing Inputs to Outputs in the Diagram Window|Input-Output.ees|no.hlp|no.bmp
+A GUI for a transient thermal lump|Diagram_In_Out.ees|no.hlp|no.bmp
+Formatted text in the Diagram window|Diagram_FormattedText.ees|no.hlp|no.bmp
+Links in the Diagram Window|Links.ees|no.hlp|no.bmp
+Using EES variables as start/stop rows in Parametric table|DegreeDays.ees|no.hlp|ho.bmp
+$INCLUDE statement used in the Diagram window|TestInclude.ees|no.hlp|no.bmp
+Child Diagram Windows|ChildDiagramWindows.ees|no.hlp|no.bmp
+Control of graphics items in the Diagram window|Diagram_graphics_control.ees|no.hlp|no.bmp
+Play a movie in the Diagram window|avi_test.ees|no.hlp|no.bmp
+Check boxes in the Diagram window|checkboxexample.ees|no.hlp|no.bmp
+Radio button groups in the Diagram window|radiogroupexample.ees|no.hlp|no.bmp
+Slider controls|Diagram_window_sliders.EES|no.hlp|no.bmp
+Property calculator (pure fluids)|Property_Calculator.ees|no.hlp|no.bmp
+Psychrometric property calculator|Psych.ees|no.hlp|no.bmp
+
+>Differential equations
+Equation-based Integral function - 1st order DFQ|DifEqn.ees|no.hlp|no.bmp
+Table-based Integral function - 1st order DFQ|DifEqn1.ees|no.hlp|no.bmp
+Euler and Crank-Nicolson methods and the TableValue function - 1st order DFQ|DifEqn2.ees|no.hlp|no.bmp
+Runga-Kutta integration|RK4_test.ees|no.hlp|no.bmp
+Equation-based Integral function - 2nd order DFQ|substeps.ees|no.hlp|no.bmp
+Drag on a falling sphere - 2nd order DFQ|Drag.ees|no.hlp|no.bmp
+The Blasius solution - a 'shooting problem'|Blasius.ees|no.hlp|no.bmp
+Shooting method to solve a 2nd order boundary value dfq|shootingmethod_DFQ.ees|no.hlp|ho.bmp
+
+>Directives
+$ARRAYS directive|ArrayRange_Notation.ees|no.hlp|no.bmp
+$CHECKUNITS directive|UnitConversion F=ma.ees|no.hlp|no.bmp
+$COPYTOLOOOKUP directive|COPYTOLOOKUP.ees|no.hlp|no.bmp
+$COMMON used with Functions|IfTest.ees|No.hlp|No.bmp 
+$CONSTANT used to specify a global variable|GlobalConstant.ees|No.hlp|No.bmp 
+$DOLAST control of compilation order|DOLAST directive.ees|no.hlp|no.bmp
+$IF MIN/MAX directive|MaxPower.ees|no.hlp|no.bmp
+$IF PARAMETRICTABLE directive|$IFNOT Directive.EES|No.hlp|No.bmp
+$IF StringVariable$ directive (conditional compilation)|$IF StringVariable.EES|No.hlp|No.bmp
+$IF StringVariable$ directive with Parametric Table|$IF StringVariable2.EES|No.hlp|No.bmp
+$IMPORT and $EXPORT demonstration|$Export_Import.EES|no.hlp|no.bmp
+$INCLUDE statement used in the Diagram window|TestInclude.ees|no.hlp|no.bmp
+$INTEGRALTABLE use with the Integral function|Drag.ees|no.hlp|no.bmp
+$LOCAL directive|Modules&Subprograms.ees|no.hlp|no.bmp
+$REFERENCE directive|$REFERENCE.ees|no.hlp|no.bmp
+$SAVETABLE directive|$SaveTable.ees|no.hlp|no.bmp
+$SUMROW directive|CapvsT.EES|no.hlp|no.bmp
+$TABSTOPS directive|Tabstops.ees|no.hlp|no.bmp
+$TRACE directive|Trace.ees|no.hlp|no.bmp
+$WARNING directive|$Warning.ees|no.hlp|no.bmp
+
+>Duplicate command
+Generate a matrix with the Duplicate command|Matrix.ees|no.hlp|no.bmp
+Matrix operations using the Duplicate command|Matrix2.ees|no.hlp|no.bmp
+Linear regression|NLinRg.ees|no.hlp|no.bmp
+
+>Formatted equations and special symbols
+Special Characters and Symbols|Special Characters and Symbols.ees|no.hlp|no.bmp
+Greek symbols and subscripts|HeatEx.ees|no.hlp|no.bmp
+Formatted Equations Window|Drag.ees|no.hlp|no.bmp
+
+>Functions, user-written
+Functions and Logic statements|IfTest.ees|No.hlp|No.bmp 
+Moody chart function|Moody.ees|no.hlp|no.bmp
+A function for use in the Runga-Kutta library|RK4_test.ees|no.hlp|no.bmp
+Calculation of the speed of sound|sonic_v.ees|no.hlp|no.bmp
+
+>Heat Exchanger Library
+Heat Exchanger Effectiveness|HX_effectiveness.ees|No.hlp|No.bmp 
+Use of the Compact Heat Exchanger Library|compact_hx.ees|No.hlp|No.bmp 
+
+>Integration
+Use of the Integral function with $IntegralTable|Drag.ees|no.hlp|no.bmp
+Use of the Integral function with the Parametric table|Difeqn1.ees|no.hlp|no.bmp
+Black-body emissive power|BlackBody.ees|no.hlp|no.bmp
+Integration by Euler and Crank-Nicolson|Difeqn2.ees|no.hlp|no.bmp
+Runga-Kutta|RK4_test.ees|no.hlp|no.bmp
+First order differential equation using the Parametric table|DifEqn2.ees|no.hlp|no.bmp
+Finding an integration limit|Findingthelimit.ees|no.hlp|no.bmp
+Double integration|dbl_intg.ees|no.hlp|no.bmp
+Solving boundary-value problems|von Karman.EES|no.hlp|no.bmp
+
+>Lookup Table and Interpolate function
+Interpolate, differentiate and curve fit|copper.ees|no.hlp|no.bmp
+2-Dimensional interpolation from Lookup table data in 3 columns|CompressorMap.ees|no.hlp|no.bmp
+2-Dimensional interpolation from Lookup table data in a matrix|Tungsten.ees|no.hlp|no.bmp
+$COPYTOLOOOKUP directive|COPYTOLOOKUP.ees|no.hlp|no.bmp
+Plotting string information|Plot_Strings.EES|no.hlp|no.bmp
+
+>Minimize or maximize
+Maximizing power from a Carnot cycle|MaxPower.ees|no.hlp|no.bmp
+Maximizing extraction pressure|Rankine.ees|no.hlp|no.bmp
+Maximizing two extraction pressures|Regen_minmax.ees|no.hlp|no.bmp
+Minimizing Gibb's free energy|Min_G.ees|no.hlp|no.bmp
+Linear and Non-linear regression|NLinrg.ees|No.hlp|No.bmp
+Test of the Genetic Optimization algorithm|Genetic_test1.ees|no.hlp|no.bmp
+Solving boundary-value problems|von Karman.EES|no.hlp|no.bmp
+
+>Modules and Subprograms
+Introduction to Modules|Modules.ees|no.hlp|no.bmp
+Modules and Subprograms|Modules&Subprograms.ees|no.hlp|no.bmp
+
+>Parametric table
+Flame Temperature vs excess air|FlameT.ees|no.hlp|no.bmp
+Refrigeration COP vs evaporator temperature|Refrig.ees|no.hlp|no.bmp
+Heat pump COP vs ambient temperature|CapvsT.ees|no.hlp|no.bmp
+Throttle outlet vs upstream pressure|CH1Ex.ees|no.hlp|no.bmp
+First order differential equation using Parametric table|DifEqn2.ees|no.hlp|no.bmp
+
+>Plotting
+Heat pump COP vs ambient temperature|CapvsT.ees|no.hlp|no.bmp
+Overlay state points on a P-h diagram|Capvst.ees|no.hlp|no.bmp
+Integration by Euler and Crank-Nicolson|Difeqn2.ees|no.hlp|no.bmp
+Results from a 2-D finite difference calculation|2-D Conduction.EES|No.hlp|no.bmp
+Plotting string information|Plot_Strings.EES|no.hlp|no.bmp
+3-D plots|3-D plot.ees|no.hlp|no.bmp
+3-D Points plot|3D Points Plot.EES|no.hlp|no.bmp
+Error bars resulting from an uncertainty table calculation|ErrorBars.ees|no.hlp|ho.bmp
+Smoothing using moving average|Indicated Power.ees|no.hlp|no.bmp
+Polar Plots|PolarPlots.ees|no.hlp|no.bmp
+Coloring selected areas in a plot|PolygonPlots.EES|no.hlp|no.bmp
+Side-by-side bar plots|Side-by-side bar plot.EES|no.hlp|no.bmp
+Plots with scales for two sets of units|DualAxes.ees|no.hlp|no.bmp
+
+>Procedures and Functions
+Building a Rankine cycle system model with internal Procedures|Regen.ees|no.hlp|no.bmp
+Use of a Function and Procedure in a chemical equilibrium problem|JANAF.ees|no.hlp|no.bmp
+An absorption cycle model using the NH3H2O procedure|Absorp.ees|no.hlp|no.bmp
+
+>Professional Version
+Dynamic Data Exchange: Calling EES from Excel|Excel_EES.EES|no.hlp|no.bmp
+Report Window|Refrig_Pro.ees|no.hlp|no.bmp
+Example of Formatted text in the Diagram window|Diagram_FormattedText.ees|no.hlp|no.bmp
+Demonstration of Child Diagram Windows|ChildDiagramWindows.ees|no.hlp|no.bmp
+Links in the Diagram Window|Links.ees|no.hlp|no.bmp
+Example macro that cycles and pauses|testmacrocycle.ees|no.hlp|no.bmp
+Using a macro to solve a dynamic steady-state problem|periodic_steady_state.ees|no.hlp|no.bmp
+Moving a ball - getting started with animation|Ball.ees|no.hlp|no.bmp
+Control of graphics items in the Diagram window|Diagram_graphics_control.ees|no.hlp|no.bmp
+Polar Plots|PolarPlots.ees|no.hlp|no.bmp
+Side-by-side bar plots|Side-by-side bar plot.EES|no.hlp|no.bmp
+Slider controls in the Diagram window|Diagram_window_sliders.EES|no.hlp|no.bmp
+3-D Points plot|3D Points Plot.EES|no.hlp|no.bmp
+Interacting with EXCEL with an EES Macro file|testExcelMacro.EES|no.hlp|no.bmp
+Distributable example - Throttle|Throttle.EES|no.hlp|no.bmp
+Constant specific enthalpy lines macro|constant h lines.EES|no.hlp|no.bmp
+Coloring selected areas in a plot|PolygonPlots.EES|no.hlp|no.bmp
+
+>Properties, thermodynamic
+Property calculator|Property_Calculator.ees|no.hlp|no.bmp
+Psychrometric property calculator|Psych.ees|no.hlp|no.bmp
+Using EES built-in thermodynamic properties for R134a|Refrig.ees|no.hlp|no.bmp
+A heat pump cycle using R134a|CapvsT.ees|no.hlp|no.bmp
+Throttling of R134a|Ch1Ex.ees|no.hlp|no.bmp
+Thermodynamic properties of ideal gases|FlameT.ees|no.hlp|no.bmp
+Use of steam properties in a Rankine cycle|Regen.ees|no.hlp|no.bmp
+Thermodynamic properties of solids and compressed liquids|Solid-Liquid_Props.ees|no.hlp|no.bmp
+Chemical Equilibrium using the Law of Mass Action|JANAF.ees|no.hlp|no.bmp
+EES viscosity function used for drag calculation|Drag.ees|no.hlp|no.bmp
+Transport properties used in calculating a heat transfer coefficient|Convect.ees|no.hlp|no.bmp
+Using psychrometric functions in a supermarket model|SuperMkt.ees|no.hlp|no.bmp
+
+>SUM function
+Sum of squares using the SUM function|NLinRg.ees|no.hlp|no.bmp
+SUM function a matrix example|Matrix.ees|no.hlp|no.bmp
+Using the SUM function in matrix multiplication|Matrix2.ees|no.hlp|no.bmp
+
+>Uncertainty calculations
+Uncertainty in heat transfer calculation|uncertainty.ees|no.hlp|no.bmp
+Uncertainty in relative humidity|ErrorBars.ees|no.hlp|ho.bmp
+
+>Unit conversion
+Newton's Law:  lb_m vs lb_f unit conversion|UnitConversion F=ma.ees|no.hlp|no.bmp
+Checking units and unit conversion|HeatEx.ees|no.hlp|no.bmp
+Calculation of the speed of sound|sonic_v.ees|no.hlp|no.bmp
+Entering Units|EnteringUnits.ees|no.hlp|no.bmp
+

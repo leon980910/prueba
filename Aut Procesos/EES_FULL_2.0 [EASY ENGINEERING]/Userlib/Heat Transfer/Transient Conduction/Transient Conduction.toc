@@ -1,0 +1,26 @@
+Transient Conduction
+-1
+Heat Transfer
+by G.F. Nellis and S.A. Klein 
+Cambridge University Press, 2009
+http://www.cambridge.org/nellisandklein
+>Semi-Infinite Body
+Constant Temperature Step|Transient Conduction.lib|transient conduction.chm@100|BMPS\SemiInf1.bmp|T=SemiInf1(T_i,T_s,alpha,x,time)
+Uniform Heat Flux|Transient Conduction.lib|transient conduction.chm@110|BMPS\SemiInf2.bmp|T=SemiInf2(T_i,q``_dot_s,k,alpha,x,time)
+Convection|Transient Conduction.lib|transient conduction.chm@120|BMPS\SemiInf3.bmp|T=SemiInf3(T_i,T_f,h,k,alpha,x,time)
+Energy Pulse|Transient Conduction.lib|transient conduction.chm@130|BMPS\SemiInf4.bmp|T=SemiInf4(T_i,E``,rho,c,alpha,x,time)
+Periodic Temperature|Transient Conduction.lib|transient conduction.chm@140|BMPS\SemiInf5.bmp|T=SemiInf5(T_i,DeltaT,omega,alpha,x,time)
+>Bounded 1-D - Dimensional
+Plane Wall Temperature|Transient Conduction.lib|transient conduction.chm@200|BMPS\planewall_Ts.bmp|T=planewall_T(x, time, T_i, T_f, alpha, k, h, L)
+Plane Wall Heat Transfer|Transient Conduction.lib|transient conduction.chm@201|BMPS\planewall_Qs.bmp|Q=planewall_Q(time, T_i, T_f, alpha, k, h, L)
+Cylinder Temperature|Transient Conduction.lib|transient conduction.chm@210|BMPS\cylinder_Ts.bmp|T=cylinder_T(r, time, T_i, T_f, alpha, k, h, r_o)
+Cylinder Heat Transfer|Transient Conduction.lib|transient conduction.chm@211|BMPS\cylinder_Qs.bmp|Q=cylinder_Q(time, T_i, T_f, alpha, k, h, r_o)
+Sphere Temperature|Transient Conduction.lib|transient conduction.chm@220|BMPS\sphere_Ts.bmp|T=sphere_T(r, time, T_i, T_f, alpha, k, h, r_o)
+Sphere Heat Transfer|Transient Conduction.lib|transient conduction.chm@221|BMPS\sphere_Qs.bmp|Q=sphere_Q(time, T_i, T_f, alpha, k, h, r_o)
+>Bounded 1-D - Non-dimensional
+Plane Wall Temperature|Transient Conduction.lib|transient conduction.chm@205|BMPS\planewall_T_NDs.bmp|THETA=planewall_T_ND(x_bar, Fo, Bi)
+Plane Wall Heat Transfer|Transient Conduction.lib|transient conduction.chm@206|BMPS\planewall_Q_NDs.bmp|Q_hat=planewall_Q_ND(Fo, Bi)
+Cylinder Temperature|Transient Conduction.lib|transient conduction.chm@215|BMPS\cylinder_T_NDs.bmp|THETA=cylinder_T_ND(r_bar, Fo, Bi)
+Cylinder Heat Transfer|Transient Conduction.lib|transient conduction.chm@216|BMPS\cylinder_Q_NDs.bmp|Q_hat=cylinder_Q_ND(Fo, Bi)
+Sphere Temperature|Transient Conduction.lib|transient conduction.chm@225|BMPS\sphere_T_NDs.bmp|THETA=sphere_T_ND(r_bar, Fo, Bi)
+Sphere Heat Transfer|Transient Conduction.lib|transient conduction.chm@226|BMPS\sphere_Q_NDs.bmp|Q_hat=sphere_Q_ND(Fo, Bi)

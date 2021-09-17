@@ -1,0 +1,11 @@
+Compressors
+-3
+Component Library Model
+by G.F. Nellis and S.A. Klein 
+2015
+
+>Compressors
+Single-stage radial compressor|Compressors.lib|Components.chm@2010|BMPS\Compressor1.bmp|Call Compressor1_CL(T_in, P_in, m_dot, F$, N, D, eta_max, psi_max, phi_scale: P_out, T_out, W_dot, phi, eta, psi, Ma)
+Constant isentropic or polytropic efficiency|Compressors.lib|Components.chm@2020|BMPS\Compressor2.bmp|Call Compressor2_CL(h_in, P_in, P_out, m_dot, F$, eta: h_out, W_dot, eta_s)
+Reciprocating refrigeration compressor|Compressors.lib|Components.chm@2030|BMPS\Compressor3.bmp|Call Compressor3_CL(F$, DR, C, T_evap, DELTAT_sh, T_cond, dP_evap, eta_cm : eta_vol, m_dot, W_dot, h_out)
+Scroll refrigeration compressor|Compressors.lib|Components.chm@2035|BMPS\Compressor4.bmp|Call Compressor4_CL(F$, DR, T_evap, DELTAT_sh, T_cond, L, eta : eta_vol, m_dot, W_dot, h_out)

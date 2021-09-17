@@ -1,0 +1,10 @@
+FoulingFactor
+1
+Heat Transfer
+by G.F. Nellis and S.A. Klein 
+Cambridge University Press, 2009
+Reserved
+FoulingFactor.lkt
+1
+2
+3

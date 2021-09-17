@@ -1,0 +1,4 @@
+PropPlot %%1 hs 1 %%2 0 DoQLines
+OverlayPlot 0 Table=ARR  X=s[i]  Y=h[i]  Rows=1..1  Line=0  Symbol=8 SYmbolSize=8 Color=Red
+Show PlotWindow 0
+

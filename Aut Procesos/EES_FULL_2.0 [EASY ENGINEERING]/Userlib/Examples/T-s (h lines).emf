@@ -1,0 +1,34 @@
+
+DeletePlot 1
+PropPlot F$ TS 0 0 DoQLines
+
+T_max=T_crit(F$)
+T_min=T_triple(F$)+0.01*(T_crit(F$)-T_triple(F$))
+h_min=enthalpy(F$,T=T_min,x=0)
+h_max=enthalpy(F$,T=T_min+0.8*(T_max-T_min),x=1)
+j=0
+repeat
+j=j+0.1
+h=h_min+j*(h_max-h_min)
+
+N_max=40
+N=0
+i=0
+onerror goto 10
+repeat
+	N=N+1
+	T=T_min+(T_max-T_min)/N_max*N
+	s=entropy(F$,T=T,h=h)
+	Q=quality(F$,T=T,h=h)
+         	if (Q<0)  or  (Q>1) then goto 10
+	i=i+1
+	T[i]=T
+	s[i]=s
+10:  
+until (N>=N_max)
+solve
+HideWindow Solution
+HideWindow Arrays
+if (i>1) then OverlayPlot 1  Table=ARR1  X=s[i]  Y=T[i]  Rows=1..i  Line=1  Symbol=0  Color=blue  RIGHT
+until (j>=1)
+

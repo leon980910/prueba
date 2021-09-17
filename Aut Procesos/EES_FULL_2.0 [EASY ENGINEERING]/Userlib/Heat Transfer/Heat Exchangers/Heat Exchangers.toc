@@ -1,0 +1,33 @@
+Heat Exchangers
+-1
+Heat Transfer
+by G.F. Nellis and S.A. Klein 
+Cambridge University Press, 2009
+http://www.cambridge.org/nellisandklein
+>F for LMTD
+Parallelflow|Heat Exchangers.lib|Heat Exchangers.chm@2000|BMPS\cf_parallel.bmp|F=LMTD_CF('parallelflow',P,R)
+Crossflow (both fluids unmixed)|Heat Exchangers.lib|Heat Exchangers.chm@2000|BMPS\cf_unmixed.bmp|F=LMTD_CF('crossflow_both_unmixed',P,R)
+Crossflow (1 fluid mixed)|Heat Exchangers.lib|Heat Exchangers.chm@2000|BMPS\cf_one_mixed.bmp|F=LMTD_CF('crossflow_one_unmixed',P,R)
+Shell and tube (1 fluid mixed)|Heat Exchangers.lib|Heat Exchangers.chm@2000|BMPS\cf_shell_and_tube_one.bmp|F=LMTD_CF('shell&tube_1',P,R)
+N shell pass|Heat Exchangers.lib|Heat Exchangers.chm@2000|BMPS\cf_shell_and_tube.bmp|F=LMTD_CF('shell&tube_N',P,R)
+>NTU -> Effectiveness 
+Counterflow|Heat Exchangers.lib|Heat Exchangers.chm@1000|BMPS\Counterflow.bmp|epsilon=HX('counterflow', Ntu, C_dot_1, C_dot_2, 'epsilon')
+Parallelflow|Heat Exchangers.lib|Heat Exchangers.chm@1000|BMPS\Parallelflow.bmp|epsilon=HX('parallelflow', Ntu, C_dot_1, C_dot_2, 'epsilon')
+Crossflow (both fluids unmixed)|Heat Exchangers.lib|Heat Exchangers.chm@1000|BMPS\Crossflow_unmixed.bmp|epsilon=HX('crossflow_both_unmixed', Ntu, C_dot_1, C_dot_2, 'epsilon')
+Crossflow (1 fluid mixed)|Heat Exchangers.lib|Heat Exchangers.chm@1000|BMPS\Crossflow_1mixed.bmp|epsilon=HX('crossflow_one_unmixed', Ntu, C_dot_1, C_dot_2, 'epsilon')
+Shell and tube (1 fluid unmixed)|Heat Exchangers.lib|Heat Exchangers.chm@1000|BMPS\ShellTube.bmp|epsilon=HX('shell&tube_1', Ntu, C_dot_1, C_dot_2, 'epsilon')
+2 shell pass|Heat Exchangers.lib|Heat Exchangers.chm@1000|BMPS\ShellTube2.bmp|epsilon=HX('shell&tube_2', Ntu, C_dot_1, C_dot_2, 'epsilon')
+N shell pass|Heat Exchangers.lib|Heat Exchangers.chm@1000|BMPS\ShellTubeN.bmp|epsilon=HX('shell&tube_N', Ntu, C_dot_1, C_dot_2, 'epsilon') {change N to a value between 1..9}
+Regenerator (balanced flow)|Heat Exchangers.lib|Heat Exchangers.chm@1000|BMPS\Regenerator.bmp|epsilon=HX('Regenerator', Ntu, C_dot, C_matrix/FlowTime, 'epsilon')
+>Effectiveness -> NTU 
+Counterflow|Heat Exchangers.lib|Heat Exchangers.chm@1000|BMPS\Counterflow.bmp|NTU=HX('counterflow', epsilon, C_dot_1, C_dot_2, 'NTU')
+Parallelflow|Heat Exchangers.lib|Heat Exchangers.chm@1000|BMPS\Parallelflow.bmp|NTU=HX('parallelflow', epsilon, C_dot_1, C_dot_2, 'NTU')
+Crossflow (both fluids unmixed)|Heat Exchangers.lib|Heat Exchangers.chm@1000|BMPS\Crossflow_unmixed.bmp|NTU=HX('crossflow_both_unmixed', epsilon, C_dot_1, C_dot_2, 'NTU')
+Crossflow (1 fluid unmixed)|Heat Exchangers.lib|Heat Exchangers.chm@1000|BMPS\Crossflow_1mixed.bmp|NTU=HX('crossflow_one_unmixed', epsilon, C_dot_1, C_dot_2, 'NTU')
+Shell and tube (1 fluid mixed)|Heat Exchangers.lib|Heat Exchangers.chm@1000|BMPS\ShellTube.bmp|NTU=HX('shell&tube_1', epsilon, C_dot_1, C_dot_2, 'NTU')
+2 shell pass|Heat Exchangers.lib|Heat Exchangers.chm@1000|BMPS\ShellTube2.bmp|NTU=HX('shell&tube_2', epsilon, C_dot_1, C_dot_2, 'NTU')
+N shell pass|Heat Exchangers.lib|Heat Exchangers.chm@1000|BMPS\ShellTubeN.bmp|NTU=HX('shell&tube_N', epsilon, C_dot_1, C_dot_2, 'NTU') {change N to a value between 1..9}
+>Axial Conduction (numerical model)
+Counterflow with axial conduction|NumericalHX.lib|NumericalHX.chm@1000|BMPS\AxialConductionHX.bmp|call  AxialConductionHX(C_dot_H, C_dot_C, NTU_H, NTU_C, lambda, gamma : eff, eff_nac)
+>Regenerator (numerical model)
+General Regenerator Analysis|NumericalHX.lib|NumericalHX.chm@2000|BMPS\RegeneratorHX.bmp|call RegeneratorHX(m_dot_HTCB, T_H_in, m_dot_CTHB, T_C_in, c_f, rho_r, c_r, t_HTCB, t_CTHB, h_HTCB, h_CTHB, V_r, A_s : Q, T_H_out, T_C_out)

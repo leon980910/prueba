@@ -1,0 +1,42 @@
+Minor Losses and Flow Measurement
+-1
+Resistance Coef. and Flow Measurement
+for steady incompressible flow
+
+
+>Expansion and Contraction
+Sudden Expansion|Minor Losses.lib|Minor Losses.chm@1010|BMPS\SuddenExpansion.bmp|K=K_Sudden_Expansion(D_1,D_2)
+Gradual Expansion|Minor Losses.lib|Minor Losses.chm@1015|BMPS\GradualExpansion.bmp|K=K_Gradual_Expansion(D_1,D_2,theta)
+Sudden Contraction|Minor Losses.lib|Minor Losses.chm@1020|BMPS\SuddenContraction.bmp|K=K_Sudden_Contraction(D_1,D_2)
+Gradual Contraction|Minor Losses.lib|Minor Losses.chm@1025|BMPS\GradualContraction.bmp|K=K_Gradual_Contraction(D_1,D_2,theta)
+
+>Pipe Inlets
+Rounded Pipe Inlet|Minor Losses.lib|Minor Losses.chm@2010|BMPS\WellRoundedInlet.bmp|K=K_Rounded_Pipe_Inlet(r,D)
+Sharp-Edged Pipe Inlet|Minor Losses.lib|Minor Losses.chm@2020|BMPS\SharpEdgedInlet.bmp|K=K_Sharp_Edged_Pipe_Inlet(D)
+Reentrant Pipe Inlet|Minor Losses.lib|Minor Losses.chm@2030|BMPS\ReentrantInlet.bmp|K=K_Reentrant_Pipe_Inlet(l,t,D)
+
+>Pipe Exits
+Rounded Pipe Exit|Minor Losses.lib|Minor Losses.chm@3010|BMPS\WellRoundedExit.bmp|K=K_Rounded_Pipe_Exit('turbulent')
+Sharp-Edged Pipe Exit|Minor Losses.lib|Minor Losses.chm@3020|BMPS\SharpEdgedExit.bmp|K=K_Sharp_Edged_Pipe_Exit('turbulent')
+Reentrant Pipe Exit|Minor Losses.lib|Minor Losses.chm@3030|BMPS\ReentrantExit.bmp|K=K_Reentrant_Pipe_Exit('turbulent')
+
+>Bends
+90 degree bend|Minor Losses.lib|Minor Losses.chm@4010|BMPS\bend90.bmp|K=K_90deg_bend(r,D,RelRough)
+Miter bend|Minor Losses.lib|Minor Losses.chm@4020|BMPS\miterbend.bmp|K=K_miterbend(Theta,RelRough)
+90 degree elbow|Minor Losses.lib|Minor Losses.chm@4030|BMPS\elbow90.bmp|K=K_90deg_elbow(RelRough)
+45 degree elbow|Minor Losses.lib|Minor Losses.chm@4040|BMPS\elbow45.bmp|K=K_45deg_elbow(RelRough)
+Return Bend|Minor Losses.lib|Minor Losses.chm@4050|BMPS\ReturnBend.bmp|K=K_ReturnBend(RelRough)
+
+>Valves
+K_AngleValve|Minor Losses.lib|Minor Losses.chm@5020|BMPS\anglevalve.bmp|K=K_AngleValve(RelRough, fo)
+K_GateValve|Minor Losses.lib|Minor Losses.chm@5010|BMPS\gatevalve.bmp|K=K_GateValve(RelRough, fo)
+K_GlobeValve|Minor Losses.lib|Minor Losses.chm@5030|BMPS\globevalve.bmp|K=K_GlobeValve(RelRough, fo)
+K_SwingCheckValve|Minor Losses.lib|Minor Losses.chm@5040|BMPS\swingcheckvalve.bmp|K=K_SwingCheckValve(RelRough)
+
+>Tee Joints
+T (flow straight through) |Minor Losses.lib|Minor Losses.chm@6010|BMPS\Tee1.bmp|K=K_Tee_Straight(RelRough)
+T (flow through branch) |Minor Losses.lib|Minor Losses.chm@6020|BMPS\Tee2.bmp|K=K_Tee_branched(RelRough)
+
+>Flow Measurement
+Orifice Plate|Minor Losses.lib|Minor Losses.chm@7010|BMPS\OrificePlate.bmp|Call OrificePlate(F$,T_1,P_1,m_dot,D_1,D_2:DELTAP,V_dot,Re)
+Flow Noizzle|Minor Losses.lib|Minor Losses.chm@7020|BMPS\FlowNozzle.bmp|Call FlowNozzle(F$,T_1,P_1,m_dot,D_1,D_2:DELTAP,V_dot,Re)

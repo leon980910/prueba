@@ -1,0 +1,11 @@
+Pumps
+-3
+Component Library Model
+by G.F. Nellis and S.A. Klein 
+2015
+
+>Gear Pumps
+Gear Pump 1|Pumps.lib|Components.chm@1510|BMPS\GearPump1.bmp|Call GearPump1_CL(F$, C, T_in, P_in, P_out, N, V_disp, K_leak, eta_o: m_dot, T_out, W_dot, eta_p, eta_v)
+
+>Centrifugal Pumps
+Centrifugal Pump 1|Pumps.lib|Components.chm@1610|BMPS\CentrifugalPump1.bmp|Call CentrifugalPump1_CL( F$, C, T_in, P_in, m_dot, N, D, D_hub: P_out, T_out, W_dot, eta)

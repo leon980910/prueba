@@ -1,0 +1,77 @@
+//Fluorinated ketone C2F5C(O)CF(CF3)2 1,1,1,2,2,4,5,5,5-NONAFLUORO-4-(TRIFLUOROMETHYL)-3-PENTANONE (NOVEC 649)
+//Correlation fit by S.A. Klein:  data provided by Dele Fayemi (dfayemi@mmm.com) from 3M Electronics Markets Materials
+C6_Fluoroketone|Approximate property data for C6 Fluoroketone (NOVEC 649).  Correlation fit by S.A. Klein (10/24/08) based on data from 3M 
+316.05          {molecular weight}
+0               {not used}
+3.312950E+01    {a} Liquid density=a+b*Tz^(1/3)+c*Tz^(2/3)+d*Tz+e*Tz^(4/3) 
+9.996174E+01    {b}                                           +f*sqrt(Tz)+g*(Tz)^2}
+-4.042111E+01   {c}     where Tz=(1-T/Tc) and Liquid Density[=]lbm/ft3
+5.097574E+01    {d}
+0               {e}
+0               {f}
+0               {g}
+-1.04487957E+04 {a}  Vapor pressure fit: lnP=a/T+b+cT+d(1-T/Tc)^1.5+eT^2
+3.199209E+01    {b}     where T[=] R and P[=]psia
+-2.702978E-02   {c}
+0               {d}
+1.30312969E-05  {e}
+0               {not used}
+0.0339548       {Gas constant in psia-ft3/lbm-R}
+4.13055E-03     {b}  Constants for Martin-Hou EOS/English_units
+-1.34337E+00    {A2}
+5.35463E-04     {B2}
+-3.90546E+01    {C2}
+2.64686E-02     {A3}
+-1.07800E-05    {B3}
+9.11520E-01     {C3}
+-2.18879E-04    {A4}
+0               {B4}
+0               {C4}
+0               {A5}
+1.33133E-09     {B5} 
+-4.11792E-05    {C5}
+0               {A6}
+0               {B6}
+0               {C6}
+5.47500         {Bexp - Martin-Hou exponential constant}
+0               {alpha}
+0               {C'}
+2.628419E-01    {a}   Cv(0 pressure) = a + b T + c T^2 + d T^3 + e/T^2
+-3.141012E-04   {b}           where T[=]R and Cv[=]Btu/lb-R
+4.730130E-07    {c}
+-1.612708E-10   {d}
+0               {e}
+-47.929744      {href offset}
+-1.408476       {sref offset}
+270.49636       {Pc [=] psia}
+795.258         {Tc [=] R} 
+0.025064        {vc [=] ft3/lbm}
+0               {not used}
+0               {not used}
+2                 {Viscosity correlation type}
+-1                {Lower limit of gas viscosity correlation in K}
+-1               {Upper limit of gas viscosity correlation in K}
+-10.859E5           {A}    GasViscosity*1E12=A+B*T+C*T^2+D*T^3 
+3.0873e4            {B}    where T[=]K and GasViscosity[=]N-s/m2
+-4.8098             {C}
+0                   {D}
+230                 {Lower limit of liquid viscosity correlation in K}
+310                 {Upper limit of liquid viscosity correlation in K}
+3.001680E+03        {A}   Liquid Viscosity*1E6=A+B*T+C*T^2+D*T^3
+-2.556783E+01       {B}    where T[=]K and Liquid Viscosity[=]N-s/m2
+7.167567E-02        {C} 
+-6.314153E-05       {D}
+2                   {Conductivity correlation type: set to 2: do not change}
+320                 {Lower limit of gas conductivity correlation in K}
+365                 {Upper limit of gas conductivity correlation in K}
+-5.6785e-3          {A}   GasConductivity=A+B*T+C*T^2+D*T^3
+0.0355e-3           {B}    where T[=]K and GasConductivity[=]W/m-K
+0                   {C}
+0                   {D} 
+270                 {Lower limit of liquid conductivity correlation in K}
+315                 {Upper limit of liquid conductivity correlation in K}
+114.7e-3            {A}   LiquidConductivity=A+B*T+C*T^2+D*T^3 
+-0.1879e-3          {B}    where T[=]K and LiquidConductivity[=]W/m-K
+0                   {C}
+0                   {D}
+0                   {not used: terminator}
